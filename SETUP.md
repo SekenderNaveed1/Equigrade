@@ -1,7 +1,7 @@
 # Table of Contents
-(Links don't work currently)
+
 - Setup
-  - [Clone repository](./SETUP.md#clone-repository)
+  - [Clone repository](#clone-repository)
   - [Setting up virtual evironment](#setting-up-virtual-environment)
   - [Installing dependencies](#installing-dependencies)
 
