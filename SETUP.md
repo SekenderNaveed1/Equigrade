@@ -4,6 +4,7 @@
   - [Clone repository](#clone-repository)
   - [Setting up virtual evironment](#setting-up-virtual-environment)
   - [Installing dependencies](#installing-dependencies)
+  - [Testing canvasAPI](#testing-connection-to-canvasapi)
 
 # Clone Repository
 
@@ -24,3 +25,14 @@ Make sure you have python version 3.11 installed
 # Installing dependencies
 
 - In your virtual environment, enter ``` pip install -r ./requirements.txt ``` in the terminal.  
+
+## Testing Connection to canvasAPI
+1. Go to your canvas page and sign in
+2. Click on ``` Account ```, then ``` Settings ```.
+3. Scroll down until you see ``` Approved Integrations: ```.
+4. Click ``` New Access Token ```.  Name the access token and give it an expiration date, then click generate token.
+5. Copy the access token to your clipboard.
+6. Go back to your IDE and create a file named ``` .env ``` in the same directory as ``` setup.py ```.
+7. In the .env file, type ``` CANVAS_API_TOKEN = {Paste your access token here} ```.
+8. Run setup.py: ``` python ./setup.py ```.
+9. The terminal should have outputed your name with a number.
