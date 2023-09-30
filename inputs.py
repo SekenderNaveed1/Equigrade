@@ -1,6 +1,5 @@
 import argparse
 import json
-#testing
 
 class EnvironmentSettings:
     def __init__(self):
@@ -8,7 +7,6 @@ class EnvironmentSettings:
         self.setting2 = None
 
     def set_setting(self, setting_name, value):
-
         if setting_name == 'setting1':
             self.setting1 = value
         elif setting_name == 'setting2':
