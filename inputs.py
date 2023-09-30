@@ -1,6 +1,7 @@
 import argparse
 import json
 
+
 class EnvironmentSettings:
     def __init__(self):
         self.setting1 = None
@@ -12,17 +13,20 @@ class EnvironmentSettings:
         elif setting_name == 'setting2':
             self.setting2 = value
 
+
 class HomeworkManager:
     def __init__(self):
         self.homework_list = []
 
-    def add_homework(self, name, id, substitute_assignment):
+    def add_homework(self, name, substitute_method, substitute_assignments):
         homework_data = {
             "Name": name,
-            "ID": id,
-            "Substitute Assignment": substitute_assignment
+            # "ID": id,
+            "Substitute Method": substitute_method,
+            "Substitute Assignments": substitute_assignments
         }
         self.homework_list.append(homework_data)
+
 
 def save_data(environment, homework_manager):
     data = {
@@ -36,6 +40,7 @@ def save_data(environment, homework_manager):
     with open("data.json", "w") as data_file:
         json.dump(data, data_file)
 
+
 def load_data():
     try:
         with open("data.json", "r") as data_file:
@@ -46,6 +51,14 @@ def load_data():
             "homework_list": []
         }
     return data
+
+
+def get_substitute_assignments(number_of_substitute_assignments):
+    substitute_assignments = []
+    for i in range(int(number_of_sub_assignments)):
+        substitute_assignments.append(input(f"Enter substitute assignment {i + 1}: "))
+    return substitute_assignments
+
 
 if __name__ == "__main__":
     data = load_data()
@@ -80,11 +93,14 @@ if __name__ == "__main__":
     if args.add_homework:
         # Prompt the user for homework details
         name = input("Enter the name of the homework: ")
-        id = input("Enter the ID of the homework: ")
-        substitute_assignment = input("Enter the substitute assignment: ")
+        substitute_method = input("Enter the substitute method (average, weighted_average, max, min, median): ")
+        number_of_sub_assignments = input(
+            "Enter the number of assignments you want to use to calculate substitute grade: ")
+
+        substitute_assignments = get_substitute_assignments(number_of_sub_assignments)
 
         # Add the homework with the provided details
-        homework_manager.add_homework(name, id, substitute_assignment)
+        homework_manager.add_homework(name, substitute_method, substitute_assignments)
 
         # Save data immediately after adding a homework
         save_data(environment, homework_manager)
@@ -97,5 +113,6 @@ if __name__ == "__main__":
     print("\nHomework List:")
     for homework in homework_manager.homework_list:
         print(f"Name: {homework['Name']}")
-        print(f"ID: {homework['ID']}")
+        # print(f"ID: {homework['ID']}")
+        print(f"Substitute Method: {homework['Substitute Method']}")
         print(f"Substitute Assignment: {homework['Substitute Assignment']}")
