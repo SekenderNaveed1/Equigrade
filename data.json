@@ -6,12 +6,12 @@
   "homework_list": [
     {
       "Name": "Homework 1",
-      "ID": "1234",
+      "Substitute Method": "Weighted Average",
       "Substitute Assignment": "Homework 8"
     },
     {
       "Name": "Homework 2",
-      "ID": "1235",
+      "Substitute Method": "Weighted Average",
       "Substitute Assignment": "Homework 5"
     }
   ]
