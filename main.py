@@ -21,11 +21,14 @@ def main():
                 if assignment_name:
                     print("Assignment found: ", assignment_name)
                     sub_options()
-                    sub_method = get_sub_method()
-                    if sub_method:
-                        substitute(sub_method)
-                    else:
-                        print(f'Invalid substitution method.')
+                    sub_method = None
+                    
+                    while sub_method==None:
+                        sub_method = get_sub_method()
+                        if sub_method:
+                            substitute(sub_method)
+                        else:
+                            print(f'Invalid substitution method.')
 
                 else:
                     print(f'No matching assignment found.')

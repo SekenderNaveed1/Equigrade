@@ -47,6 +47,6 @@ def get_sub_method():
     check_if_exiting(sub_method)
 
     valid_subs = ["average", "weighted average", "max"]
-    sub_method = search(valid_commands, sub_method.lower(), 80)
+    sub_method = search(valid_subs, sub_method.lower(), 80)
 
     return sub_method
