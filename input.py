@@ -12,8 +12,8 @@ def get_command():
 
     return command
 
-def get_assignment(course):
-    user_input = input("Enter the name of the assignment to customize (or type 'exit' to quit): ")
+def get_assignment(course, prompt):
+    user_input = input(prompt)
 
     check_if_exiting(user_input.lower())
 

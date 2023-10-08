@@ -26,11 +26,7 @@ def function_to_change_grade(course, assignment_name, percentage):
             break
     else:
         print(f"No matching assignment found with the name '{assignment_name}'.")
-
-
-       
-
-
+    
 
 def find_assignments_weight(course, assignment_name):
    assignments = course.get_assignments()
