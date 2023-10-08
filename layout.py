@@ -12,7 +12,6 @@ def command_table():
         substitute           : customize assignment grading with substitutions\n
         exit                 : exit program""")
     print_divider()
-    print("\n")
 
 def sub_options():
     print_divider()
@@ -21,4 +20,3 @@ def sub_options():
         weighted average     : take the weighted average of multiple user-selected assignments\n
         max                  : use the substitution method that yields the highest grade""")
     print_divider()
-    print("\n")
