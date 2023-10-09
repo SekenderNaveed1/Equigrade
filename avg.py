@@ -5,9 +5,33 @@ def avg(course, assignment_name):
     total = get_total()
     substitute_assignments = get_sub_assignments(course, total)
 
-    students = course.get_users()
-    for student in students:
-        update_grade(student, course, assignment_name, substitute_assignments)
+    assignment = get_assignment_data(course, assignment_name)
+    submissions = assignment.get_submissions()
+
+    grade_map = {}
+    submission_scores = [0] * (total + 1)
+
+    for submission in submissions:
+        curr_student = submission.user_id
+        if submission.workflow_state=="unsubmitted":
+            continue
+        submission_scores[0] = submission.score
+        grade_map[curr_student] = submission_scores
+    
+    index = 1
+    for sub_assignment in substitute_assignments:
+        assignment = get_assignment_data(course, sub_assignment)
+        sub_submissions = assignment.get_submissions()
+        for sub_submission in sub_submissions:
+            if sub_submission.user_id in grade_map:
+                grade_map[sub_submission.user_id][index] = sub_submission.score
+        index+=1
+
+    print(grade_map)
+
+    #students = course.get_users()
+    #for student in students:
+    #    update_grade(student, course, assignment_name, substitute_assignments)
 
     return substitute_assignments
 
