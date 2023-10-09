@@ -3,11 +3,11 @@ from sub_weighted_avg import weighted_avg
 
 def substitute(sub_method, course, homework_manager, assignment_name):
     if sub_method == "average":
-        new_score, sub_assignments = avg(course)
+        new_score, sub_assignments = avg(course, assignment_name)
 
     elif sub_method == "weighted_average":
         new_score, sub_assignments = weighted_avg(course)
-        
+
     else:
         avg_score, sub_assignments_avg = avg(course)
         weighted_avg_score, sub_assignments_weighted_avg = weighted_avg(course)
