@@ -1,16 +1,22 @@
-def weighted_avg(weight1, weight2, score1, score2):
+def weighted_avg(weights, scores):
     wholePercent = 100
-    weight1Percent = weight1 / wholePercent
-    weight2Percent = weight2 / wholePercent
-
-    avg1 = score1 / wholePercent
-    avg2 = score2 / wholePercent
-
-    weightAvg1 = weight1Percent * avg1
-    weightAvg2 = weight2Percent * avg2
-
-    weightSum = weightAvg1 + weightAvg2
-    totalWeight = weight1Percent + weight2Percent
-
-    sub_weightAvg = (weightSum / totalWeight) * wholePercent
-    return sub_weightAvg
+    
+    weights_percent = [] #weights convert percent
+    for w in weights:
+        weights_percent.append(w / wholePercent)
+    
+    scores_percent = [] #scores convert percent
+    for s in scores:
+        scores_percent.append(s / wholePercent)
+    
+    # Calculate weighted averages and total weight
+    weighted_avgs = []
+    lenght = len(weights_percent)
+    for i in range(lenght):
+        weighted_avgs.append(weights_percent[i] * scores_percent[i])
+    
+    total_weight = sum(weights_percent)
+    
+    # Calculate the final weighted average
+    final_weighted_avg = sum(weighted_avgs) * wholePercent
+    return final_weighted_avg
