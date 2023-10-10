@@ -66,7 +66,7 @@ def update_grade(grade_map, total, submissions):
 def create_map(course, grade_map, submissions, submission_scores, substitute_assignments):
     for submission in submissions:
         curr_student = submission.user_id
-        if submission.workflow_state=="unsubmitted":
+        if submission.workflow_state=="unsubmitted" or submission.score==None:
             continue
         submission_scores[0] = submission.score
         grade_map[curr_student] = submission_scores
