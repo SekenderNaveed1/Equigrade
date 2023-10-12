@@ -1,5 +1,6 @@
 import json
-
+import numpy as np
+from input_func import *
 class Homework:
     def __init__(self, name, substitute_method, substitute_assignments):
         self.name = name
@@ -15,10 +16,19 @@ class HomeworkManager:
 
     def print_homework_data(self):
         for i, homework in enumerate(self.homework_list):
-            print(f"\nName: {homework.name}")
-            print(f"Substitute Method: {homework.substitute_method}")
-            print(f"Substitute Assignments: {homework.substitute_assignments}")
             
+            print(f"\n    {i+1})\tName: {homework.name}")
+            print(f"\tSubstitute Method: {homework.substitute_method}")
+            print(f"\tSubstitute Assignments: {homework.substitute_assignments}")
+
+    def validate_input(self):
+        yes = ["Yes","yes","y","Y"]
+        no = ["No","no","n","N"]
+        while True:
+            answer = get_input(f"Do you want to change anything? (y/n): ", np.union1d(yes,no))
+            if answer in no:
+                break
+            answer1 = int(get_int("Enter the index of the assignment you would like to change: ", len(self.homework_list))) - 1
 
 class EnvironmentSettings:
     def __init__(self, setting1=None, setting2=None):
@@ -74,15 +84,10 @@ def get_substitute_assignments(number_of_substitute_assignments):
         substitute_assignments.append(input(f"Enter the name of substitute assignment {i+1}: ").strip())
     return substitute_assignments
 # Get the number of substitute assignments and reasks for input if not an int
-def get_number_of_sub_assignments():
-    number = input("How many substitute assignments would you like?: ").strip()
-    while True:
-        if number.isnumeric():
-            return number
-        else:
-            number = input("Please enter an valid integer: ")
+
         
-        
+
+
 
 if __name__ == "__main__":
     environment, homework_manager = load_data()
@@ -94,11 +99,11 @@ if __name__ == "__main__":
         elif action == "add-homework":
             name = input("Enter the name of the homework: ").strip()
             substitute_method = get_input("Enter the substitute method (average/weighted_average/max/min/median): ", ["average", "weighted_average", "max", "min", "median"])
-            number_of_substitute_assignments = get_number_of_sub_assignments()
+            number_of_substitute_assignments = get_int("How many substitute assignments would you like?: ")
             substitute_assignments = get_substitute_assignments(number_of_substitute_assignments)
             homework_manager.add_homework(name, substitute_method, substitute_assignments)
             save_data(environment, homework_manager)
         elif action == "show-homework":
             homework_manager.print_homework_data()
             # Continue from here
-            # user_prompt(homework, i)
+            homework_manager.validate_input()
