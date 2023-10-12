@@ -16,7 +16,6 @@ class HomeworkManager:
 
     def print_homework_data(self):
         for i, homework in enumerate(self.homework_list):
-            
             print(f"\n    {i+1})\tName: {homework.name}")
             print(f"\tSubstitute Method: {homework.substitute_method}")
             print(f"\tSubstitute Assignments: {homework.substitute_assignments}")
@@ -25,35 +24,17 @@ class HomeworkManager:
         yes = ["Yes","yes","y","Y"]
         no = ["No","no","n","N"]
         while True:
+            self.print_homework_data()
             answer = get_input(f"Do you want to change anything? (y/n): ", np.union1d(yes,no))
             if answer in no:
                 break
-            answer1 = int(get_int("Enter the index of the assignment you would like to change: ", len(self.homework_list))) - 1
-
+            # asks user which assignment they would like to change
+            index = int(get_int("Enter the index of the assignment you would like to change: ", len(self.homework_list))) - 1
+            validate_homework(self.homework_list[index])
 class EnvironmentSettings:
     def __init__(self, setting1=None, setting2=None):
         self.setting1 = setting1
         self.setting2 = setting2
-
-def get_input(prompt, allowed_values):
-    while True:
-        user_input = input(prompt).strip()
-        if user_input in allowed_values:
-            return user_input
-
-def user_prompt(homework, i):
-    while True:
-        answer = get_input(f"Do you want to change anything{' else' if i > 1 else ''}? (Yes/No) ", ["Yes", "No","yes","no","y","n"])
-        if answer == "No":
-            break
-        answer2 = get_input("What do you want to change? (Name/Substitute Method/Substitute Assignments) ", ["Name", "Substitute Method", "Substitute Assignments"])
-        
-        if answer2 == "Name":
-            homework.name = input("What would you like the new name to be? ").strip()
-        elif answer2 == "Substitute Method":
-            homework.substitute_method = get_input("What would you like the new substitute method to be? (average/weighted_average/max/min/median) ", ["average", "weighted_average", "max", "min", "median"])
-        elif answer2 == "Substitute Assignments":
-            homework.substitute_assignments = input("What would you like the new substitute assignments to be? ").strip()
 
 def save_data(environment, homework_manager):
     data = {
@@ -77,16 +58,6 @@ def load_data():
             return environment, homework_manager
     except FileNotFoundError:
         return EnvironmentSettings(), HomeworkManager()
-# Get the list of substitute assignments and return as an array
-def get_substitute_assignments(number_of_substitute_assignments):
-    substitute_assignments = []
-    for i in range(int(number_of_substitute_assignments)):
-        substitute_assignments.append(input(f"Enter the name of substitute assignment {i+1}: ").strip())
-    return substitute_assignments
-# Get the number of substitute assignments and reasks for input if not an int
-
-        
-
 
 
 if __name__ == "__main__":
@@ -104,6 +75,4 @@ if __name__ == "__main__":
             homework_manager.add_homework(name, substitute_method, substitute_assignments)
             save_data(environment, homework_manager)
         elif action == "show-homework":
-            homework_manager.print_homework_data()
-            # Continue from here
             homework_manager.validate_input()
