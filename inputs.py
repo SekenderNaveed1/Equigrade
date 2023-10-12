@@ -1,29 +1,40 @@
-import argparse
 import json
-
-class EnvironmentSettings:
-    def __init__(self):
-        self.setting1 = None
-        self.setting2 = None
-
-    def set_setting(self, setting_name, value):
-        if setting_name == 'setting1':
-            self.setting1 = value
-        elif setting_name == 'setting2':
-            self.setting2 = value
+import numpy as np
+from input_func import *
+class Homework:
+    def __init__(self, name, substitute_method, substitute_assignments):
+        self.name = name
+        self.substitute_method = substitute_method
+        self.substitute_assignments = substitute_assignments
 
 class HomeworkManager:
     def __init__(self):
         self.homework_list = []
 
     def add_homework(self, name, substitute_method, substitute_assignments):
-        homework_data = {
-            "Name": name,
-            # "ID": id,
-            "Substitute Method": substitute_method,
-            "Substitute Assignments": substitute_assignments
-        }
-        self.homework_list.append(homework_data)
+        self.homework_list.append(Homework(name, substitute_method, substitute_assignments))
+
+    def print_homework_data(self):
+        for i, homework in enumerate(self.homework_list):
+            print(f"\n    {i+1})\tName: {homework.name}")
+            print(f"\tSubstitute Method: {homework.substitute_method}")
+            print(f"\tSubstitute Assignments: {homework.substitute_assignments}")
+
+    def validate_input(self):
+        yes = ["Yes","yes","y","Y"]
+        no = ["No","no","n","N"]
+        while True:
+            self.print_homework_data()
+            answer = get_input(f"Do you want to change anything? (y/n): ", np.union1d(yes,no))
+            if answer in no:
+                break
+            # asks user which assignment they would like to change
+            index = int(get_int("Enter the index of the assignment you would like to change: ", len(self.homework_list))) - 1
+            validate_homework(self.homework_list[index])
+class EnvironmentSettings:
+    def __init__(self, setting1=None, setting2=None):
+        self.setting1 = setting1
+        self.setting2 = setting2
 
 def save_data(environment, homework_manager):
     data = {
@@ -31,9 +42,8 @@ def save_data(environment, homework_manager):
             "setting1": environment.setting1,
             "setting2": environment.setting2
         },
-        "homework_list": homework_manager.homework_list
+        "homework_list": [{"name": hw.name, "substitute_method": hw.substitute_method, "substitute_assignments": hw.substitute_assignments} for hw in homework_manager.homework_list]
     }
-
     with open("data.json", "w") as data_file:
         json.dump(data, data_file)
 
@@ -41,76 +51,28 @@ def load_data():
     try:
         with open("data.json", "r") as data_file:
             data = json.load(data_file)
+            environment = EnvironmentSettings(data["environment"]["setting1"], data["environment"]["setting2"])
+            homework_manager = HomeworkManager()
+            for hw_data in data["homework_list"]:
+                homework_manager.add_homework(hw_data["name"], hw_data["substitute_method"], hw_data["substitute_assignments"])
+            return environment, homework_manager
     except FileNotFoundError:
-        data = {
-            "environment": {},
-            "homework_list": []
-        }
-    return data
-
-def get_substitute_assignments(number_of_substitute_assignments):
-    substitute_assignments = []
-    for i in range(int(number_of_sub_assignments)):
-            substitute_assignments.append(input(f"Enter substitute assignment {i+1}: "))
-    return substitute_assignments
+        return EnvironmentSettings(), HomeworkManager()
 
 
 if __name__ == "__main__":
-    data = load_data()
+    environment, homework_manager = load_data()
 
-    # Initialize EnvironmentSettings and HomeworkManager objects with loaded data
-    environment = EnvironmentSettings()
-    environment.setting1 = data["environment"].get("setting1")
-    environment.setting2 = data["environment"].get("setting2")
-
-    homework_manager = HomeworkManager()
-    homework_manager.homework_list = data["homework_list"]
-
-    # Create a parser object
-    parser = argparse.ArgumentParser(description="Manage environment settings and homework")
-
-    # Define command-line flags
-    parser.add_argument("--setting1", help="Set the value of setting1")
-    parser.add_argument("--setting2", help="Set the value of setting2")
-    parser.add_argument("--add-homework", action="store_true", help="Add homework")
-
-    # Parse command-line arguments
-    args = parser.parse_args()
-
-    # Set environment settings based on command-line flags
-    if args.setting1:
-        environment.set_setting("setting1", args.setting1)
-
-    if args.setting2:
-        environment.set_setting("setting2", args.setting2)
-
-    # Perform actions based on command-line flags
-    if args.add_homework:
-        # Prompt the user for homework details
-        name = input("Enter the name of the homework: ")
-        substitute_method = input("Enter the substitute method (average, weighted_average, max, min, median): ")
-        number_of_sub_assignments = input("Enter the number of assignments you want to use to calculate substitute grade: ")
-
-        substitute_assignments = get_substitute_assignments(number_of_sub_assignments)
-        
-       
-
-        # Add the homework with the provided details
-        homework_manager.add_homework(name, substitute_method, substitute_assignments)
-
-        # Save data immediately after adding a homework
-        save_data(environment, homework_manager)
-
-    # Print or manipulate the environment and homework data as needed
-    print("Environment Settings:")
-    print(f"Setting1: {environment.setting1}")
-    print(f"Setting2: {environment.setting2}")
-
-    print("\nHomework List:")
-    for homework in homework_manager.homework_list:
-        print(f"Name: {homework['Name']}")
-        # print(f"ID: {homework['ID']}")
-        print(f"Substitute Method: {homework['Substitute Method']}")
-        print(f"Substitute Assignments: {homework['Substitute Assignments']}")
-
-
+    while True:
+        action = get_input("What would you like to do? (add-homework/show-homework/quit) ", ["add-homework", "show-homework", "quit"])
+        if action == "quit":
+            break
+        elif action == "add-homework":
+            name = input("Enter the name of the homework: ").strip()
+            substitute_method = get_input("Enter the substitute method (average/weighted_average/max/min/median): ", ["average", "weighted_average", "max", "min", "median"])
+            number_of_substitute_assignments = get_int("How many substitute assignments would you like?: ")
+            substitute_assignments = get_substitute_assignments(number_of_substitute_assignments)
+            homework_manager.add_homework(name, substitute_method, substitute_assignments)
+            save_data(environment, homework_manager)
+        elif action == "show-homework":
+            homework_manager.validate_input()
