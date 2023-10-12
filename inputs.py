@@ -16,7 +16,7 @@ class HomeworkManager:
 
     def print_homework_data(self):
         for i, homework in enumerate(self.homework_list):
-            print(f"\n    {i+1})\tName: {homework.name}")
+            print(f"\n   {i+1})\tName: {homework.name}")
             print(f"\tSubstitute Method: {homework.substitute_method}")
             print(f"\tSubstitute Assignments: {homework.substitute_assignments}")
 

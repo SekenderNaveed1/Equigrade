@@ -1,1 +1,1 @@
-{"environment": {"setting1": null, "setting2": null}, "homework_list": [{"Name": "Assignment 3", "Substitute Method": "average", "Substitute Assignments": ["Test Quiz", "Test Quiz 2", "Test Quiz 3"]}]}
+{"environment": {"setting1": null, "setting2": null}, "homework_list": [{"name": "test", "substitute_method": "average", "substitute_assignments": ["a", "b", "c"]}]}
