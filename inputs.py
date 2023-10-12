@@ -69,7 +69,7 @@ if __name__ == "__main__":
             break
         elif action == "add-homework":
             name = input("Enter the name of the homework: ").strip()
-            substitute_method = get_input("Enter the substitute method (average/weighted_average/max/min/median): ", ["average", "weighted_average", "max", "min", "median"])
+            substitute_method = get_input("Enter the substitute method (average/weighted_average/max/min/median): ", ["average", "weighted_average", "max", "min"])
             number_of_substitute_assignments = get_int("How many substitute assignments would you like?: ")
             substitute_assignments = get_substitute_assignments(number_of_substitute_assignments)
             homework_manager.add_homework(name, substitute_method, substitute_assignments)
