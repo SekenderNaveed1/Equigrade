@@ -1,0 +1,18 @@
+{
+  "environment": {
+    "setting1": null,
+    "setting2": null
+  },
+  "homework_list": [
+    {
+      "Name": "Homework 1",
+      "Substitute Method": "Weighted Average",
+      "Substitute Assignment": "Homework 8"
+    },
+    {
+      "Name": "Homework 2",
+      "Substitute Method": "Weighted Average",
+      "Substitute Assignment": "Homework 5"
+    }
+  ]
+}
