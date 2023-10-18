@@ -1,10 +1,9 @@
 from input import get_assignment
 from assignment_data import get_assignment_data
 
-def weighted_avg(course, assignment_name):
+def avg(course, assignment_name):
     total = get_total()
-    an_array_of_weights = [0] * total
-    substitute_assignments = get_sub_assignments(course, total, an_array_of_weights)
+    substitute_assignments = get_sub_assignments(course, total)
 
     assignment = get_assignment_data(course, assignment_name)
     submissions = assignment.get_submissions()
@@ -14,7 +13,7 @@ def weighted_avg(course, assignment_name):
 
     create_map(course, grade_map, submissions, submission_scores, substitute_assignments)
     
-    update_grade(grade_map, total, submissions, an_array_of_weights)
+    update_grade(grade_map, total, submissions)
 
     #students = course.get_users()
     #for student in students:
@@ -35,21 +34,7 @@ def get_total():
     
     return total
 
-
-
-def get_weight(name):
-    try:
-        user_input = int(input(f"Enter the weight of assignment " + name + " in percentage (1-100): "))
-        if user_input < 0 or user_input > 100:
-            print("Please enter a percentage between 0 and 100.")
-        else:
-            new_input = user_input / 100
-    except ValueError:
-        print("Invalid input. Please enter an integer.")
-
-    return new_input
-
-def get_sub_assignments(course, total, an_array_of_the_weights):
+def get_sub_assignments(course, total):
     substitute_assignments = []
     scores = []
 
@@ -61,27 +46,22 @@ def get_sub_assignments(course, total, an_array_of_the_weights):
 
             if assignment_name:
                 print("Assignment found: ", assignment_name)
-                an_array_of_the_weights[i] = get_weight(assignment_name)
                 substitute_assignments.append(assignment_name)
             else:
                 print(f'No matching assignment found.')
     
     return substitute_assignments
 
-def update_grade(grade_map, total, submissions, total_weights_array):
-    #use the weight and the submission scores to calculate the average
+def update_grade(grade_map, total, submissions):
     for student in grade_map:
         sum = 0
-        for i in range(1, len(grade_map[student])): #1 to end
-            #print(i)
-            sum += grade_map[student][i] * total_weights_array[i-1]
-            #print(grade_map[student][i])
-        grade_map[student][0] = round(sum, 2)  # Round the sum to 2 decimal places
+        for i in range(1, len(grade_map[student])):
+            sum+=grade_map[student][i]
+        grade_map[student][0] = sum / total
     
     for submission in submissions:
         if submission.user_id in grade_map:
             submission.edit(submission={'posted_grade':grade_map[submission.user_id][0]})
-
 
 def create_map(course, grade_map, submissions, submission_scores, substitute_assignments):
     for submission in submissions:

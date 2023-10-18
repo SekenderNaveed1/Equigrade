@@ -17,6 +17,6 @@ def sub_options():
     print_divider()
     print("""Substitution methods: \n
         average              : take the average of multiple user-selected assignments\n
-        weighted average     : take the weighted average of multiple user-selected assignments\n
+        waverage             : take the weighted average of multiple user-selected assignments\n
         max                  : use the substitution method that yields the highest grade""")
     print_divider()
