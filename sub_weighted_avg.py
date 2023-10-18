@@ -1,4 +1,6 @@
-def sub_weighted_avg(weight1, weight2, score1, score2):
+#class weighted_average:
+
+def sub_weighted_avg(score1, score2, weight1, weight2):
     wholePercent = 100
     weight1Percent = weight1 / wholePercent
     weight2Percent = weight2 / wholePercent
@@ -15,5 +17,5 @@ def sub_weighted_avg(weight1, weight2, score1, score2):
     sub_weightAvg = (weightSum / totalWeight) * wholePercent
     return round(sub_weightAvg, 2)
 
-print(sub_weighted_avg(40, 60, 85, 90))
-#NOTICE: 0-5 rounds down, 6-9 rounds up
+print(sub_weighted_avg(85, 90, 40, 60))
+print(round(88.235, 2))
