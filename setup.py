@@ -1,17 +1,16 @@
 import dotenv
 import os
-import canvasapi
-import sys  # Import the sys module
+from canvasapi import Canvas
 
-dotenv.load_dotenv(dotenv.find_dotenv())
+def setup():
+    dotenv.load_dotenv(dotenv.find_dotenv())
 
-TOKEN = os.environ.get('CANVAS_API_TOKEN')
-BASEURL = 'https://canvas.ucdavis.edu'
+    # Get the Canvas API token from the environment variables
+    TOKEN = os.environ.get('CANVAS_API_TOKEN')
+    BASEURL = 'https://canvas.ucdavis.edu'
 
-canvas_api = canvasapi.Canvas(BASEURL, TOKEN)
+    canvas_api = Canvas(BASEURL, TOKEN)
 
-result = canvas_api.get_user('self')
-
-
-print("Python version:", sys.version)
-print(result)
+    course_id = os.getenv('course_id') #This is the course id of the Matthew Butner Sandbox it is the digits after courses, so modify as you need to access specific courses.
+    
+    return canvas_api.get_course(course_id)
