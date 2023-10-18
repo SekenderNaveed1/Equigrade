@@ -1,7 +1,7 @@
 from avg import avg
 from Weightedavg import get_total, get_sub_assignments, get_assignment_data, create_map
 
-def max(course, assignment_name):
+def max_score(course, assignment_name):
     total = get_total()
     an_array_of_weights = [0] * total
     substitute_assignments = get_sub_assignments(course, total, an_array_of_weights)
@@ -25,12 +25,14 @@ def max(course, assignment_name):
 def update_grade(grade_map, total, submissions, total_weights_array):
     #use the weight and the submission scores to calculate the average
     for student in grade_map:
+        wsum = 0
         sum = 0
         for i in range(1, len(grade_map[student])): #1 to end
             #print(i)
-            sum += grade_map[student][i] * total_weights_array[i-1]
+            wsum += grade_map[student][i] * total_weights_array[i-1]
+            sum += grade_map[student][i]
             #print(grade_map[student][i])
-        wavg = round(sum, 2)  # Round the sum to 2 decimal places
+        wavg = round(wsum, 2)  # Round the sum to 2 decimal places
         avg = sum / total
         grade_map[student][0] = max(wavg, avg)
     

@@ -1,6 +1,6 @@
 from avg import avg
 from Weightedavg import weighted_avg
-from max import max
+from max import max_score
 
 def substitute(sub_method, course, homework_manager, assignment_name):
     if sub_method == "average":
@@ -10,7 +10,7 @@ def substitute(sub_method, course, homework_manager, assignment_name):
         sub_assignments = weighted_avg(course, assignment_name)
 
     else:
-        sub_assignments = max(course, assignment_name)
+        sub_assignments = max_score(course, assignment_name)
     
     substitute_assignments = sub_assignments
     homework_manager.add_homework(assignment_name, sub_method, substitute_assignments)
