@@ -1,4 +1,3 @@
-from avg import avg
 from Weightedavg import get_total, get_sub_assignments, get_assignment_data, create_map
 
 def max_score(course, assignment_name):

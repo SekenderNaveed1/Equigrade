@@ -46,7 +46,7 @@ def get_sub_method():
     sub_method = input("Which substitution method would you like to use? ")
     check_if_exiting(sub_method)
 
-    valid_subs = ["average", "waverage", "max"]
+    valid_subs = ["average", "waverage", "max", "direct"]
     sub_method = search(valid_subs, sub_method.lower(), 80)
 
     return sub_method
