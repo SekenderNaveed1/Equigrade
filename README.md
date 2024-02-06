@@ -20,42 +20,37 @@ Built With
     Python for core functionality
     Integration with Canvas LMS
 
-Getting Started
+# Clone Repository
 
-Follow these steps to get a local copy up and running.
-Setup
-Clone Repository
+- In your directory of choice enter 
+``` git clone https://github.com/SekenderNaveed1/Equigrade.git ``` into the terminal
+- or you can click ``` code ``` and ``` clone with github desktop ``` in github
+![image](https://github.com/SekenderNaveed1/Equigrade/assets/99291169/f9493a75-7701-41d9-8097-cc2ce04c6a93)
 
-    Open your terminal.
-    Navigate to your directory of choice.
-    Execute the command git clone https://github.com/SekenderNaveed1/Equigrade.git.
-    Alternatively, you can use GitHub Desktop to clone the repository by clicking the "Code" button on the GitHub page and selecting "Open with GitHub Desktop".
+Make sure you have python version 3.11 installed
 
-Prerequisite: Ensure you have Python version 3.11 installed on your machine.
-Setting up Virtual Environment
+# Setting up virtual environment
 
-    Change directory to the cloned repository: cd Equigrade.
-    Create a virtual environment by running python -m venv venv in your terminal.
-    Activate the virtual environment:
-        On Windows, use .\venv\Scripts\activate.
-        On macOS and Linux, use source venv/bin/activate.
-        You should see (venv) before your command prompt if successful.
+1. cd into the directory with the code
+- In your terminal, enter ``` python -m venv venv ```.  The ``` venv ``` folder should be in the same directory as ``` main.py ```
+- To activate your virtual environment, enter ``` ./venv/Scripts/activate ``` into the terminal.  There should be a ``` (venv) ``` to the left of your prompt now.
+- To deactivate your virtual environment, enter ``` deactivate ```
 
-Installing Dependencies
+# Installing dependencies
 
-In your activated virtual environment:
+- In your virtual environment, enter ``` pip install -r ./requirements.txt ``` in the terminal.  
 
-    Run pip install -r ./requirements.txt to install the project dependencies.
+## Testing Connection to canvasAPI
+1. Go to your canvas page and sign in
+2. Click on ``` Account ```, then ``` Settings ```.
+3. Scroll down until you see ``` Approved Integrations: ```.
+4. Click ``` New Access Token ```.  Name the access token and give it an expiration date, then click generate token.
+5. Copy the access token to your clipboard.
+6. Go back to your IDE and create a file named ``` .env ``` in the same directory as ``` setup.py ```.
+7. In the .env file, type ``` CANVAS_API_TOKEN = {Paste your access token here} ```.
+8. Run setup.py: ``` python ./setup.py ```.
+9. The terminal should have outputed your name with a number.
 
-Testing Connection to CanvasAPI
-
-    Sign in to your Canvas account.
-    Navigate to "Account" > "Settings".
-    Scroll to "Approved Integrations" and click "New Access Token".
-    Name your token, set an expiration date, and click "Generate Token".
-    Copy the generated token.
-    Create a .env file in the project directory and add CANVAS_API_TOKEN={Your Token Here}.
-    Run python ./setup.py to test the connection. You should see your name and a number outputted in the terminal.
 
 Usage
 
