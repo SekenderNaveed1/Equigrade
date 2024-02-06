@@ -1,34 +1,23 @@
-Equigrade: The Ultimate Grading System
+Equigrade: A more hoslitic Grading System
 
 Equigrade is designed to transform educational assessment by introducing a flexible, comprehensive grading system that adapts to the nuances of student performance. Its goal is to simplify the grading process while ensuring accuracy and fairness in evaluation.
 
-Why Equigrade?
+What is Equigrade?
+Equigrade is an innovative grading system designed to enhance the way educators assess student performance. At its core, Equigrade provides flexibility and accuracy in grading, allowing for the substitution and adjustment of grades based on predefined rules or instructor discretion. This system is built to reflect a student's true capabilities by considering their overall performance rather than just isolated outcomes.
 
-    Save Time: Automate grading with Equigrade, allowing educators to focus on teaching and personalized feedback.
-    DRY Principle: Stop reinventing the wheel for each assessment. Equigrade offers a customizable framework to meet diverse grading needs.
-    Innovation in Education: Equigrade is built to address and solve the real challenges in educational assessment.
+Equigrade's key features include:
+
+    Grade Substitution: If a student performs poorly on one assignment but improves on a similar one later, Equigrade can substitute the latter grade for the former, ensuring the grading reflects the student's learning curve.
+    Holistic Assessment: By taking into account the entirety of a student's work, Equigrade promotes a more comprehensive view of their knowledge and skills.
+    Customizable Settings: Instructors can adjust the system to fit their specific grading criteria, making Equigrade versatile across different subjects and teaching methods.
+    Integration with Canvas: Designed to work seamlessly with the Canvas Learning Management System (LMS), Equigrade ensures a smooth user experience for both instructors and students.
 
 While Equigrade aims to be broadly applicable, we recognize the uniqueness of each educational context and welcome contributions to make this tool even better.
 Table of Contents
 
-    Built With
-    Getting Started
-        Setup
-            Clone Repository
-            Setting up Virtual Environment
-            Installing Dependencies
-            Testing Connection to CanvasAPI
-    Usage
-    Roadmap
-    Contributing
-    License
-    Contact
-    Acknowledgments
-
 Built With
 
     Python for core functionality
-    Flask for web interface (optional)
     Integration with Canvas LMS
 
 Getting Started
