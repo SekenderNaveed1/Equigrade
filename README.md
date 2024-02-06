@@ -1,51 +1,91 @@
-GPT
-README for Equigrade
+Equigrade: The Ultimate Grading System
 
-Hey there! If you are confused about what equigrade is, you'll find this guide super handy. I'm going to walk you through Equigrade – an awesome grading system that's all about flexibility and fairness. Trust me, it's not your typical, rigid grade tracker. So, let's dive in!
+Equigrade is designed to transform educational assessment by introducing a flexible, comprehensive grading system that adapts to the nuances of student performance. Its goal is to simplify the grading process while ensuring accuracy and fairness in evaluation.
 
-What is Equigrade?
+Why Equigrade?
 
-Equigrade is a revolutionary grading system that's designed to reflect a student's performance more accurately. It's not just about the numbers; it's about understanding and adapting to different learning styles and progress. It's cool because it allows for grade substitutions and adjustments, which means if you had a bad day on one assignment, it's not the end of the world!
-Core Concepts
+    Save Time: Automate grading with Equigrade, allowing educators to focus on teaching and personalized feedback.
+    DRY Principle: Stop reinventing the wheel for each assessment. Equigrade offers a customizable framework to meet diverse grading needs.
+    Innovation in Education: Equigrade is built to address and solve the real challenges in educational assessment.
 
-Grade Blueprint: This is like the backbone of Equigrade. It sets out how grades can be adjusted or substituted. Think of it as a flexible guideline rather than a strict rulebook.
+While Equigrade aims to be broadly applicable, we recognize the uniqueness of each educational context and welcome contributions to make this tool even better.
+Table of Contents
 
-Global Settings: Here’s where the magic happens! You can set things like:
-        Max Substitutions Allowed (up to 15!)
-        Grade Thresholds for Substitution (usually between 15 and 70, but you can tweak this)
-        Penalty Types and Amounts (to keep things fair, but not too harsh)
+    Built With
+    Getting Started
+        Setup
+            Clone Repository
+            Setting up Virtual Environment
+            Installing Dependencies
+            Testing Connection to CanvasAPI
+    Usage
+    Roadmap
+    Contributing
+    License
+    Contact
+    Acknowledgments
 
-Assignment Guidelines: Every assignment can have a substitute, either another assignment or an aggregate of others. Methods include average, weighted average, max, min, median, and custom calculations. Plus, you can assign different weightings.
+Built With
 
-Why Equigrade? 
+    Python for core functionality
+    Flask for web interface (optional)
+    Integration with Canvas LMS
 
-    Holistic Assessment: It's all about the big picture. Equigrade ensures your overall performance is what counts, not just one-off scores.
+Getting Started
 
-    Flexibility: You get to customize grading criteria. This means it aligns with different teaching styles and course demands.
+Follow these steps to get a local copy up and running.
+Setup
+Clone Repository
 
-    Integration with Canvas: It’s super user-friendly and works seamlessly with Canvas, which most of us are already using.
+    Open your terminal.
+    Navigate to your directory of choice.
+    Execute the command git clone https://github.com/SekenderNaveed1/Equigrade.git.
+    Alternatively, you can use GitHub Desktop to clone the repository by clicking the "Code" button on the GitHub page and selecting "Open with GitHub Desktop".
 
-    Consistent Engagement: It encourages you not to skip assignments, as they all contribute to your final grade. Keeps you on your toes!
+Prerequisite: Ensure you have Python version 3.11 installed on your machine.
+Setting up Virtual Environment
 
-Getting Started with Equigrade:
-Setting up Equigrade is pretty straightforward. You'll need to:
+    Change directory to the cloned repository: cd Equigrade.
+    Create a virtual environment by running python -m venv venv in your terminal.
+    Activate the virtual environment:
+        On Windows, use .\venv\Scripts\activate.
+        On macOS and Linux, use source venv/bin/activate.
+        You should see (venv) before your command prompt if successful.
 
-    Check out the SETUP.md for detailed instructions.
-    Install any dependencies listed in requirements.txt.
-    Initialize the system using the setup.py script.
+Installing Dependencies
 
-How It Works
+In your activated virtual environment:
 
-    Equigrade uses a JSON structure (see data.json) to manage the grade blueprint.
-    Various Python scripts handle different parts of the grading process, like assignment_data.py, avg.py, max.py, and many more.
-    User interactions, settings, data parsing, and feature implementation are all taken care of within these scripts.
+    Run pip install -r ./requirements.txt to install the project dependencies.
 
-Final Thoughts
-Equigrade is like having a super flexible, understanding TA who gets that sometimes life happens. It's about making sure your grades reflect your effort and knowledge over the whole term, not just your worst or best day. Plus, it’s easy to use and integrates with tools we're already familiar with.
+Testing Connection to CanvasAPI
 
-So, whether you're a student worried about that one bad grade tanking your GPA, or a teacher looking for a fairer way to assess your class, Equigrade is definitely worth checking out. It’s by students, for students – and it shows.
+    Sign in to your Canvas account.
+    Navigate to "Account" > "Settings".
+    Scroll to "Approved Integrations" and click "New Access Token".
+    Name your token, set an expiration date, and click "Generate Token".
+    Copy the generated token.
+    Create a .env file in the project directory and add CANVAS_API_TOKEN={Your Token Here}.
+    Run python ./setup.py to test the connection. You should see your name and a number outputted in the terminal.
 
-PS:
-If you have GPT-4 subscription. I have created a custom trained gpt that can help be a mini bot to equigrade.
-[https://chat.openai.com/g/g-cAuHru6MG-equigrade
-](url)
+Usage
+
+Equigrade is designed to enhance the grading process with features like grade substitution, integration with Canvas, and more. For detailed examples of how to use Equigrade in your projects, refer to the Documentation.
+Roadmap
+
+See the open issues for a list of proposed features (and known issues).
+Contributing
+
+Contributions are welcome! For any enhancements or bug reports, please follow the steps in the Contributing section.
+License
+
+Distributed under the MIT License. See LICENSE.txt for more information.
+Contact
+
+    Project Maintainer: [Your Name] - @your_twitter - email@example.com
+    Project Link: https://github.com/your_username/Equigrade
+
+Acknowledgments
+
+    Choose an Open Source License
+    And more listed in the Acknowledgments section.
