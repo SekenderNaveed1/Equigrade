@@ -72,4 +72,7 @@ Contact
 Acknowledgments
 
     Choose an Open Source License
-    And more listed in the Acknowledgments section.
+    Special thanks to:
+    Matthew Butner 
+    Gavin Lang
+    Amabel Gale
