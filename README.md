@@ -71,11 +71,10 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 Contact
 
     Project Maintainer/Manager: Naveed Sekender - sekendernaveed1@gmail.com
-    Project Link: https://github.com/your_username/Equigrade](https://github.com/SekenderNaveed1/Equigrade)
+    Project Link: (https://github.com/SekenderNaveed1/Equigrade)
 
 Acknowledgments
 
-    Choose an Open Source License
     Special thanks to:
     Matthew Butner - UC Davis Faculty Member
     Gavin Lang  - Lead of QA team
