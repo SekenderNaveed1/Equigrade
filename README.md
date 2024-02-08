@@ -21,6 +21,71 @@ Understanding that each course and instructor has unique needs, Equigrade is des
 ### Seamless Integration with Canvas: 
 To ensure a smooth and hassle-free experience for both instructors and students, Equigrade is built to integrate seamlessly with Canvas, a popular Learning Management System (LMS). This integration means that users can easily navigate between Equigrade and Canvas, with grades and assignments automatically synced between the two platforms. The result is a streamlined workflow that saves time and reduces the potential for errors.
 
+
+## Equigrade and the Challenge of Dropping Assignments
+
+Equigrade's comprehensive grading approach, including its grade substitution feature, offers a novel solution to the traditional academic practice of dropping or allowing students to skip certain assignments. This section explains how traditional methods might unintentionally encourage less desirable student behaviors, such as procrastination or strategic laziness, and how Equigrade's system provides a more effective alternative.
+
+#### Traditional Approaches to Assignments
+
+- **Strategic Laziness**: Traditional grading systems that permit dropping the lowest scores or skipping assignments may inadvertently encourage students to selectively engage with their coursework. Knowing they can afford to skip assignments without impacting their final grade might lead some students to bypass tasks they perceive as challenging or less interesting.
+
+- **Poor Time Management**: The option to drop assignments can serve as a safety net for poor time management, allowing students to procrastinate and then rely on the ability to exclude their poorest performances from their final grade calculation.
+
+- **Inconsistent Engagement**: Dropping assignments can result in an uneven engagement with the course material. Students might opt to concentrate their efforts on assignments they believe will be easier for them to excel in, potentially neglecting areas of the curriculum that could offer valuable learning experiences.
+
+#### How Equigrade Addresses These Issues
+
+Equigrade eliminates the need for assignment dropping or skipping by:
+
+- **Encouraging Continuous Improvement**: By allowing grades from later assignments to substitute lower grades from earlier, related assignments, Equigrade motivates students to persistently engage with all course material and strive for improvement throughout the course.
+
+- **Fostering Consistent Engagement**: Since all assignments have the potential to contribute to the final grade, students are encouraged to consistently participate and invest effort across all tasks. This consistent engagement ensures a comprehensive understanding of the course material.
+
+- **Rewarding Growth and Mastery**: Equigrade's focus on improvement and mastery over time shifts the emphasis from tactical avoidance of difficult assignments to continuous learning and skill development.
+
+By addressing the pitfalls of traditional dropping or skipping policies, Equigrade promotes a more holistic and effective learning environment that encourages students to engage with the entire curriculum, manage their time wisely, and continuously strive for improvement.
+
+
+# Equigrade Example Use Scenario:  Python Course
+
+## Course Setup
+
+In this scenario, we explore the application of Equigrade in an advanced Python programming course. This example highlights the system's ability to reflect significant improvements in student performance through its grade substitution feature.
+
+- **Assignments**: The curriculum includes 10 challenging programming assignments that cover advanced Python topics, such as algorithms, data structures, web development, and data science.
+- **Grading Policy**: The instructor enables up to 2 grade substitutions for assignments if students show marked improvement on similar or related topics later in the course.
+
+
+## Student: Yoshi
+
+- **Assignment 1**: Yoshi faces difficulties with advanced data structures, scoring 50%.
+- **Assignment 8**: After diligent study and practice, Yoshi excels in a project involving complex data manipulation, scoring 95%.
+
+## Application of Equigrade
+
+Equigrade identifies the significant advancement in Yoshi's skills from Assignment 1 to Assignment 8, suggesting a substitution to accurately represent their learning trajectory.
+
+### Substitution Process
+
+1. **Identification**: Equigrade finds an opportunity for grade substitution between Assignment 1 and Assignment 8.
+2. **Implementation**: Yoshi's grade for Assignment 1 is substituted with their higher grade from Assignment 8.
+
+### Impact on Grades
+
+Assuming Yoshi's other 8 assignments (excluding Assignments 1 and 8) average a grade of 80% for simplicity:
+
+- **Before Substitution**: Yoshi's overall average grade is calculated with the initial low grade for Assignment 1.
+  ```plaintext
+  Average Grade = (50 + 80*8 + 95) / 10 = 78.5%
+  
+- **After Substitution**: The new average incorporates the higher grade from Assignment 8, replacing Assignment 1.
+ New Average Grade = (95 + 80*8 + 95) / 10 = 83.0%
+
+This is actually a substancial difference where the GPA goes from a 2.33 to a 3.00!
+
+
+
 # Built With
 
 - Python for core functionality
