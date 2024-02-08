@@ -83,7 +83,6 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 
 
-# Important information - 
 # Important Notice: Ethical Use Policy
 
 ## Strict Prohibition of Unethical Use
