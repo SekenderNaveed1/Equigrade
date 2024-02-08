@@ -7,12 +7,19 @@ Equigrade is an innovative grading system designed to enhance the way educators 
 
 # Equigrade's key features include:
 
-Grade Substitution: If a student performs poorly on one assignment but improves on a similar one later, Equigrade can substitute the latter grade for the former, ensuring the grading reflects the student's learning curve.
-Holistic Assessment: By taking into account the entirety of a student's work, Equigrade promotes a more comprehensive view of their knowledge and skills.
-Customizable Settings: Instructors can adjust the system to fit their specific grading criteria, making Equigrade versatile across different subjects and teaching methods.
-Integration with Canvas: Designed to work seamlessly with the Canvas Learning Management System (LMS), Equigrade ensures a smooth user experience for both instructors and students.
+Here's a more detailed, straightforward explanation of its key features:
 
-While Equigrade aims to be broadly applicable, we recognize the uniqueness of each educational context and welcome contributions to make this tool even better.
+## Grade Substitution for Improved Learning: 
+Equigrade recognizes that learning is a process filled with ups and downs. To reflect a student's growth over time, if a student initially struggles with a concept but later shows improvement on a similar assignment, Equigrade allows for the replacement of the earlier lower grade with the later, higher one. This substitution acknowledges and rewards the student's progress and mastery over time, rather than penalizing them for earlier challenges.
+
+## Comprehensive Evaluation of Student Work: 
+Unlike traditional grading systems that may focus narrowly on individual assignments, Equigrade adopts a holistic view. It considers all aspects of a student's work throughout a course, ensuring that the final grade accurately represents their overall understanding and skills. This approach encourages students to consistently engage with all course material, knowing that each piece of work contributes to their final assessment.
+
+## Flexible and Customizable Grading Options: 
+Understanding that each course and instructor has unique needs, Equigrade is designed with flexibility at its core. Instructors can tailor the system's settings to align with their specific grading standards and objectives. This includes adjusting which assignments can be substituted, setting grade thresholds for substitutions, and choosing how penalties for late or missing work are applied. This adaptability makes Equigrade suitable for a wide range of subjects and instructional styles.
+
+## Seamless Integration with Canvas: 
+To ensure a smooth and hassle-free experience for both instructors and students, Equigrade is built to integrate seamlessly with Canvas, a popular Learning Management System (LMS). This integration means that users can easily navigate between Equigrade and Canvas, with grades and assignments automatically synced between the two platforms. The result is a streamlined workflow that saves time and reduces the potential for errors.
 
 # Built With
 
