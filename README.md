@@ -9,16 +9,16 @@ Equigrade is an innovative grading system designed to enhance the way educators 
 
 Here's a more detailed, straightforward explanation of its key features:
 
-## Grade Substitution for Improved Learning: 
+### Grade Substitution for Improved Learning: 
 Equigrade recognizes that learning is a process filled with ups and downs. To reflect a student's growth over time, if a student initially struggles with a concept but later shows improvement on a similar assignment, Equigrade allows for the replacement of the earlier lower grade with the later, higher one. This substitution acknowledges and rewards the student's progress and mastery over time, rather than penalizing them for earlier challenges.
 
-## Comprehensive Evaluation of Student Work: 
+### Comprehensive Evaluation of Student Work: 
 Unlike traditional grading systems that may focus narrowly on individual assignments, Equigrade adopts a holistic view. It considers all aspects of a student's work throughout a course, ensuring that the final grade accurately represents their overall understanding and skills. This approach encourages students to consistently engage with all course material, knowing that each piece of work contributes to their final assessment.
 
-## Flexible and Customizable Grading Options: 
+### Flexible and Customizable Grading Options: 
 Understanding that each course and instructor has unique needs, Equigrade is designed with flexibility at its core. Instructors can tailor the system's settings to align with their specific grading standards and objectives. This includes adjusting which assignments can be substituted, setting grade thresholds for substitutions, and choosing how penalties for late or missing work are applied. This adaptability makes Equigrade suitable for a wide range of subjects and instructional styles.
 
-## Seamless Integration with Canvas: 
+### Seamless Integration with Canvas: 
 To ensure a smooth and hassle-free experience for both instructors and students, Equigrade is built to integrate seamlessly with Canvas, a popular Learning Management System (LMS). This integration means that users can easily navigate between Equigrade and Canvas, with grades and assignments automatically synced between the two platforms. The result is a streamlined workflow that saves time and reduces the potential for errors.
 
 # Built With
