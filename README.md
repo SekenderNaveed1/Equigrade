@@ -57,7 +57,7 @@ In this scenario, we explore the application of Equigrade in an advanced Python 
 - **Grading Policy**: The instructor enables up to 2 grade substitutions for assignments if students show marked improvement on similar or related topics later in the course.
 
 
-## Student: Yoshi <img src="yoshi.png" width="50" height="50" alt="Yoshi">
+## Student: Yoshi <img src="yoshi.png" width="30" height="50" alt="Yoshi">
 
 
 - **Assignment 1**: Yoshi faces difficulties with advanced data structures, scoring 50%.
