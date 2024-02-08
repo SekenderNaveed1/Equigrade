@@ -1,4 +1,4 @@
-# Equigrade: A more hoslitic Grading System
+# Equigrade: A more Holistic Grading System
 ![alt text](https://github.com/SekenderNaveed1/Equigrade/blob/main/Logo.png)
 Equigrade is designed to transform educational assessment by introducing a flexible, comprehensive grading system that adapts to the nuances of student performance. Its goal is to simplify the grading process while ensuring accuracy and fairness in evaluation.
 
