@@ -7,13 +7,12 @@ Equigrade is an innovative grading system designed to enhance the way educators 
 
 Equigrade's key features include:
 
-    Grade Substitution: If a student performs poorly on one assignment but improves on a similar one later, Equigrade can substitute the latter grade for the former, ensuring the grading reflects the student's learning curve.
-    Holistic Assessment: By taking into account the entirety of a student's work, Equigrade promotes a more comprehensive view of their knowledge and skills.
-    Customizable Settings: Instructors can adjust the system to fit their specific grading criteria, making Equigrade versatile across different subjects and teaching methods.
-    Integration with Canvas: Designed to work seamlessly with the Canvas Learning Management System (LMS), Equigrade ensures a smooth user experience for both instructors and students.
+Grade Substitution: If a student performs poorly on one assignment but improves on a similar one later, Equigrade can substitute the latter grade for the former, ensuring the grading reflects the student's learning curve.
+Holistic Assessment: By taking into account the entirety of a student's work, Equigrade promotes a more comprehensive view of their knowledge and skills.
+Customizable Settings: Instructors can adjust the system to fit their specific grading criteria, making Equigrade versatile across different subjects and teaching methods.
+Integration with Canvas: Designed to work seamlessly with the Canvas Learning Management System (LMS), Equigrade ensures a smooth user experience for both instructors and students.
 
 While Equigrade aims to be broadly applicable, we recognize the uniqueness of each educational context and welcome contributions to make this tool even better.
-Table of Contents
 
 Built With
 
