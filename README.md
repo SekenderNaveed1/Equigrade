@@ -77,11 +77,11 @@ Assuming Yoshi's other 8 assignments (excluding Assignments 1 and 8) average a g
 
 - **Before Substitution**: Yoshi's overall average grade is calculated with the initial low grade for Assignment 1.
 
-```Average Grade = (50 + 80*8 + 95) / 10 = 78.5% ```
+```Average Grade = (50 + 80*8 + 95) / 10 = 78.5% or a letter grade of C+```
   
 - **After Substitution**: The new average incorporates the higher grade from Assignment 8, replacing Assignment 1.
 
-``` New Average Grade = (95 + 80*8 + 95) / 10 = 83.0% ```
+``` New Average Grade = (95 + 80*8 + 95) / 10 = 83.0% or a letter grade of B```
 
 This is actually a substantial difference where the GPA goes from a 2.33 to a 3.00!
 
