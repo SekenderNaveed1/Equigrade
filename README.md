@@ -55,24 +55,28 @@ Make sure you have python version 3.11 installed
 Usage
 
 Equigrade is designed to enhance the grading process with features like grade substitution, integration with Canvas, and more. For detailed examples of how to use Equigrade in your projects, refer to the Documentation.
+
+
 Roadmap
 
 See the open issues for a list of proposed features (and known issues).
 Contributing
 
 Contributions are welcome! For any enhancements or bug reports, please follow the steps in the Contributing section.
-License
+- Please email me at sekendernaveed1@gmail.com with the proposed changes. I will take a look and get back to you asap.
+
+License ```LGPL-2.1 license```
 
 Distributed under the MIT License. See LICENSE.txt for more information.
 Contact
 
-    Project Maintainer: [Your Name] - @your_twitter - email@example.com
-    Project Link: https://github.com/your_username/Equigrade
+    Project Maintainer/Manager: Naveed Sekender - sekendernaveed1@gmail.com
+    Project Link: https://github.com/your_username/Equigrade](https://github.com/SekenderNaveed1/Equigrade)
 
 Acknowledgments
 
     Choose an Open Source License
     Special thanks to:
-    Matthew Butner 
-    Gavin Lang
-    Amabel Gale
+    Matthew Butner - UC Davis Faculty Member
+    Gavin Lang  - Lead of QA team
+    Amabel Gale - Lead of DEV team
