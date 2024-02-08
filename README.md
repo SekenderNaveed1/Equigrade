@@ -1,4 +1,4 @@
-# Equigrade: A more hoslitic Grading System
+![image](https://github.com/SekenderNaveed1/Equigrade/assets/72645655/f182ffc0-fa27-4756-b8fa-20d485170645)# Equigrade: A more hoslitic Grading System
 ![alt text](https://github.com/SekenderNaveed1/Equigrade/blob/main/Logo.png)
 Equigrade is designed to transform educational assessment by introducing a flexible, comprehensive grading system that adapts to the nuances of student performance. Its goal is to simplify the grading process while ensuring accuracy and fairness in evaluation.
 
@@ -17,9 +17,9 @@ While Equigrade aims to be broadly applicable, we recognize the uniqueness of ea
 # Built With
 
 - Python for core functionality
-    ![Python Logo](python-logo.png)
+    <img src="python-logo.png" alt="Python logo" width="100"/>
 - Integration with Canvas LMS
-    ![Canvas LMS Logo](Canvas_LMS_Color_RGB.png)
+    <img src="Canvas_LMS_Color_RGB.png" alt="Canvas LMS logo" width="200"/>
 
 
 
