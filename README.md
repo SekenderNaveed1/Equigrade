@@ -83,7 +83,7 @@ Assuming Yoshi's other 8 assignments (excluding Assignments 1 and 8) average a g
 
 ``` New Average Grade = (95 + 80*8 + 95) / 10 = 83.0% ```
 
-This is actually a substancial difference where the GPA goes from a 2.33 to a 3.00!
+This is actually a substantial difference where the GPA goes from a 2.33 to a 3.00!
 
 
 
