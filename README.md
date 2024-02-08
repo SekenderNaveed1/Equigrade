@@ -16,8 +16,12 @@ While Equigrade aims to be broadly applicable, we recognize the uniqueness of ea
 
 # Built With
 
-    Python for core functionality
-    Integration with Canvas LMS
+- Python for core functionality
+    ![Python Logo](python-logo.png)
+- Integration with Canvas LMS
+    ![Canvas LMS Logo](Canvas_LMS_Color_RGB.png)
+
+
 
 Please check [SETUP.MD](SETUP.md) for setup instructions and follow it very carefully.
 
