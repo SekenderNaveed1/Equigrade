@@ -76,8 +76,7 @@ Equigrade identifies the significant advancement in Yoshi's skills from Assignme
 Assuming Yoshi's other 8 assignments (excluding Assignments 1 and 8) average a grade of 80% for simplicity:
 
 - **Before Substitution**: Yoshi's overall average grade is calculated with the initial low grade for Assignment 1.
-  ```plaintext
-  Average Grade = (50 + 80*8 + 95) / 10 = 78.5%
+  ```Average Grade = (50 + 80*8 + 95) / 10 = 78.5% ```
   
 - **After Substitution**: The new average incorporates the higher grade from Assignment 8, replacing Assignment 1.
  ``` New Average Grade = (95 + 80*8 + 95) / 10 = 83.0% ```
