@@ -19,7 +19,7 @@ While Equigrade aims to be broadly applicable, we recognize the uniqueness of ea
 - Python for core functionality
     <img src="python-logo.png" alt="Python logo" width="100"/>
 - Integration with Canvas LMS
-    <img src="Canvas_LMS_Color_RGB.png" alt="Canvas LMS logo" width="200"/>
+    <img src="Canvas_LMS_Color_RGB.png" alt="Canvas LMS logo" width="100"/>
 
 
 
