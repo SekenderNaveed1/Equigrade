@@ -103,7 +103,7 @@ Please check [SETUP.MD](SETUP.md) for setup instructions and follow it very care
 
 # Motivation & roadmap
 
-Well, I guess this will probably be the most casual section of this readme, but it's for a reason. The main motivation behind this project began in the Fall of 2022 at UC Davis. I was a student assistant for Matthew Butner (co-creator) of this project. We were working on an entry-level class called ([ECS 32A](https://cs.ucdavis.edu/schedules-classes/ecs-032a-introduction-programming), which is a very basic Python course for beginners.
+Well, I guess this will probably be the most casual section of this readme, but it's for a reason. The main motivation behind this project began in the Fall of 2022 at UC Davis. I was a student assistant for Matthew Butner (co-creator) of this project. We were working on an entry-level class called [ECS 32A](https://cs.ucdavis.edu/schedules-classes/ecs-032a-introduction-programming), which is a very basic Python course for beginners.
 
 Unfortunately, we discovered a trend that a significant portion of the class either failed or performed very poorly. So, in December 2022, Professor Butner took the initiative and organized a team to help brainstorm ideas for creating a grade-enhancement algorithm for classes that are mostly project-based, like his. I was fortunate enough to be part of that team, and we worked on and off, with hour-long brainstorming sessions for around 6 months. However, in the end, I remained on the team, and in the summer, Professor Butner and I both agreed on a concept like Equigrade. However, we had one problem: we didn't have enough people for this project. It was just me and him.
 
