@@ -26,29 +26,47 @@ While Equigrade aims to be broadly applicable, we recognize the uniqueness of ea
 Please check [SETUP.MD](SETUP.md) for setup instructions and follow it very carefully.
 
 
-Usage
-
-Equigrade is designed to enhance the grading process with features like grade substitution, integration with Canvas, and more. For detailed examples of how to use Equigrade in your projects, refer to the Documentation.
 
 
-Roadmap
+# Motivation & roadmap
 
-See the open issues for a list of proposed features (and known issues).
-Contributing
+Well, I guess this will probably be the most casual section of this readme, but it's for a reason. The main motivation behind this project began in the Fall of 2022 at UC Davis. I was a student assistant for Matthew Butner (co-creator) of this project. We were working on an entry-level class called [ECS 32A]([url](https://cs.ucdavis.edu/schedules-classes/ecs-032a-introduction-programming)), which is a very basic Python course for beginners.
 
-Contributions are welcome! For any enhancements or bug reports, please follow the steps in the Contributing section.
-- Please email me at sekendernaveed1@gmail.com with the proposed changes. I will take a look and get back to you asap.
+Unfortunately, we discovered a trend that a significant portion of the class either failed or performed very poorly. So, in December 2022, Professor Butner took the initiative and organized a team to help brainstorm ideas for creating a grade-enhancement algorithm for classes that are mostly project-based, like his. I was fortunate enough to be part of that team, and we worked on and off, with hour-long brainstorming sessions for around 6 months. However, in the end, I remained on the team, and in the summer, Professor Butner and I both agreed on a concept like Equigrade. However, we had one problem: we didn't have enough people for this project. It was just me and him.
+
+I was concurrently interning at LLNL and still am, actually. I realized that one thing I really wanted to do was project management, and I pitched the idea to him, and he gave me the green light. This was in August 2023. I decided to ask around as many people as I could, friends, classmates, etc. The response was quite nice. In the end, at the height of the project, I had around 20 people on this team. We had team members with incredibly impressive backgrounds, from interning at big tech companies and being much better at coding than me, to people who were just getting started with a CS degree. And yes, that was the point of all this. I wanted to give people something legitimate to work on for their resume, to learn, and to have others work on something fun too on the side.
+
+I created a couple of different teams for this project. For this phase, the two primary ones that had to execute were the Development Team and the QA Team. The names and responsibilities are self-explanatory; the developers created, and QA did debugging, etc.
+
+The development timeframe of this project took around 3 months, from August 2023 to December 2023.
+
+The roadmap that I would love for this project is for it to be used by UC Davis faculty, especially the CS department and then other departments, while concurrently reaching other schools that use Canvas. I wholeheartedly believe that this project has the potential to make learning, to some degree, much more equitable and grades more holistic - hence the name, Equigrade.
+
+This was the first project I ever managed, and I hope it is just the beginning of many others to follow that are much larger in scale and with larger real-world ramifications.
+
+Thank you. :)
 
 
+# Contributing
 
-License ```LGPL-2.1 license```
-Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+Currently this repo is private and approved users through me or Matthew Butner will be able to contribute
+
+We welcome contributions from the community! If you have suggestions for enhancements or have identified bugs, here's how you can contribute:
+
+1. **Fork the Repository:** Start by forking the Equigrade repository to your GitHub account.
+2. **Create a Feature Branch:** Make your changes in a new branch dedicated to the feature or fix you're working on.
+3. **Commit Your Changes:** Write clear, concise commit messages that describe the enhancements or fixes.
+4. **Open a Pull Request:** Submit a pull request from your feature branch to Equigrade's main branch for review.
+5. **Email Proposal:** For significant changes or new features, please email sekendernaveed1@gmail.com with your proposal before starting work. This allows us to discuss the enhancement and how it fits into the 
 
 
+# Support
+For support either email me at sekendernaveed1@gmail.com or if you have GPT + subscription use this customer [GPT]([url](https://chat.openai.com/g/g-cAuHru6MG-equigrade)) to help you  
 
 # Contact
 
     Project Maintainer/Manager: Naveed Sekender - sekendernaveed1@gmail.com
+    UC Davis Faculty: Matthew Butner - mfbutner@ucdavis.edu 
     Project Link: (https://github.com/SekenderNaveed1/Equigrade)
 
 # Acknowledgments
@@ -57,3 +75,35 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
     Matthew Butner - UC Davis Faculty Member
     Gavin Lang  - Lead of QA team
     Amabel Gale - Lead of DEV team
+
+
+# License
+License ```LGPL-2.1 license```
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+
+
+
+# Important information - 
+# Important Notice: Ethical Use Policy
+
+## Strict Prohibition of Unethical Use
+
+We, the creators of Equigrade, have developed this software with the intention of enhancing the educational experience, providing flexibility in grading, and supporting educators in accurately assessing student performance. It is built on principles of integrity, transparency, and fairness.
+
+**We strictly prohibit any form of unethical use of Equigrade, including but not limited to:**
+
+- **Hacking into educational systems:** Unauthorized access to, or manipulation of, educational records, grades, or systems.
+- **Grade manipulation:** Using Equigrade to unfairly alter or manipulate student grades or academic records.
+- **Unauthorized use:** Deploying or using Equigrade in any manner that violates educational institution policies, local laws, or regulations.
+
+### Responsibility and Compliance
+
+Users of Equigrade are expected to uphold the highest standards of ethical conduct and ensure compliance with all relevant institutional policies and legal regulations. It is your responsibility to use Equigrade in a manner that respects the rights and privacy of all individuals involved in the educational process.
+
+## Reporting Unethical Use
+
+If you are aware of any misuse of Equigrade or have concerns regarding potential ethical violations, please report them immediately to the academic affairs department
+---
+
+Your cooperation is essential in maintaining the integrity and trustworthiness of Equigrade. Together, we can ensure that Equigrade remains a tool for positive educational advancement, reflecting our shared values of honesty, fairness, and academic integrity.
+
