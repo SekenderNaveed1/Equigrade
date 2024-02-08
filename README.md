@@ -35,15 +35,19 @@ Contributing
 Contributions are welcome! For any enhancements or bug reports, please follow the steps in the Contributing section.
 - Please email me at sekendernaveed1@gmail.com with the proposed changes. I will take a look and get back to you asap.
 
-License ```LGPL-2.1 license```
 
-Distributed under the MIT License. See LICENSE.txt for more information.
-Contact
+
+License ```LGPL-2.1 license```
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+
+
+
+# Contact
 
     Project Maintainer/Manager: Naveed Sekender - sekendernaveed1@gmail.com
     Project Link: (https://github.com/SekenderNaveed1/Equigrade)
 
-Acknowledgments
+# Acknowledgments
 
     Special thanks to:
     Matthew Butner - UC Davis Faculty Member
