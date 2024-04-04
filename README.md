@@ -93,7 +93,7 @@ Through Equigrade, instructors have the flexibility to adjust grades for earlier
 
 - Yoshi: ![Yoshi Image](yoshi.png)
 - Pathfinder: ![Pathfinder Image](PathfinderFullBody.jpg)
-- Toad: ![Toad Image](Toad.jpg)
+- Birdo: ![Birdo Image](Birdo-MP9.png)
 
 Replace `link-to-yoshi-image.png`, `link-to-birdo-image.png`, and `link-to-toad-image.png` with the actual links to your images.
 
