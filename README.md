@@ -95,9 +95,6 @@ Through Equigrade, instructors have the flexibility to adjust grades for earlier
 - Pathfinder: ![Pathfinder Image](PathfinderFullBody.jpg)
 - Birdo: ![Birdo Image](Birdo-MP9.png)
 
-Replace `link-to-yoshi-image.png`, `link-to-birdo-image.png`, and `link-to-toad-image.png` with the actual links to your images.
-
-
 
 
 # Built With
