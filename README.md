@@ -58,11 +58,11 @@ In this scenario, we explore the application of Equigrade in an advanced Python 
 
 This scenario demonstrates Equigrade's impact on student grades across a series of related assignments. Below is a table showing grades for three students - Yoshi, Birdo, and Toad - on four assignments. Following the table, we explore the topical overlaps between these assignments.
 
-| Student | Assignment 1 | Assignment 2 | Assignment 3 | Assignment 4 |
-|---------|--------------|--------------|--------------|--------------|
-| Yoshi   | 75%          | 85%          | 95%          | 80%          |
-| Birdo   | 60%          | 92%          | 87%          | 90%          |
-| Toad    | 50%          | 78%          | 88%          | 94%          |
+| Student   | Assignment 1 | Assignment 2 | Assignment 3 | Assignment 4 |
+|-----------|--------------|--------------|--------------|--------------|
+| Yoshi     | 75%          | 85%          | 95%          | 80%          |
+| Birdo     | 60%          | 92%          | 87%          | 90%          |
+| Pathfinder| 50%          | 78%          | 88%          | 94%          |
 
 ## Assignment Topics and Overlap
 
@@ -92,7 +92,7 @@ Through Equigrade, instructors have the flexibility to adjust grades for earlier
 ## Character Images
 
 - Yoshi: ![Yoshi Image](yoshi.png)
-- Birdo: ![Birdo Image](Birdo-MP9.png)
+- Pathfinder: ![Pathfinder Image](PathfinderFullBody.jpg)
 - Toad: ![Toad Image](Toad.jpg)
 
 Replace `link-to-yoshi-image.png`, `link-to-birdo-image.png`, and `link-to-toad-image.png` with the actual links to your images.
