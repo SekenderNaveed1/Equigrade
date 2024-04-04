@@ -91,9 +91,9 @@ Through Equigrade, instructors have the flexibility to adjust grades for earlier
 
 ## Character Images
 
-- Yoshi: ![Yoshi Image](link-to-yoshi-image.png)
-- Birdo: ![Birdo Image](link-to-birdo-image.png)
-- Toad: ![Toad Image](link-to-toad-image.png)
+- Yoshi: ![Yoshi Image](yoshi.png)
+- Birdo: ![Birdo Image](Birdo-MP9.png)
+- Toad: ![Toad Image](Toad.jpg)
 
 Replace `link-to-yoshi-image.png`, `link-to-birdo-image.png`, and `link-to-toad-image.png` with the actual links to your images.
 
