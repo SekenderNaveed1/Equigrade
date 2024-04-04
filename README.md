@@ -54,34 +54,49 @@ In this scenario, we explore the application of Equigrade in an advanced Python 
 - **Grading Policy**: The instructor enables up to 2 grade substitutions for assignments if students show marked improvement on similar or related topics later in the course.
 
 
-## Student: Yoshi <img src="yoshi.png" width="40" height="50" alt="Yoshi">
+# Example Use Scenario: Understanding Equigrade Through Student Performance
 
+This scenario demonstrates Equigrade's impact on student grades across a series of related assignments. Below is a table showing grades for three students - Yoshi, Birdo, and Toad - on four assignments. Following the table, we explore the topical overlaps between these assignments.
 
-- **Assignment 1**: Yoshi faces difficulties with advanced data structures, scoring 50%.
-- **Assignment 8**: After diligent study and practice, Yoshi excels in a project involving complex data manipulation, scoring 95%.
+| Student | Assignment 1 | Assignment 2 | Assignment 3 | Assignment 4 |
+|---------|--------------|--------------|--------------|--------------|
+| Yoshi   | 75%          | 85%          | 95%          | 80%          |
+| Birdo   | 60%          | 92%          | 87%          | 90%          |
+| Toad    | 50%          | 78%          | 88%          | 94%          |
 
-## Application of Equigrade
+## Assignment Topics and Overlap
 
-Equigrade identifies the significant advancement in Yoshi's skills from Assignment 1 to Assignment 8, suggesting a substitution to accurately represent their learning trajectory.
+The assignments cover related areas of the course material, ensuring that students have multiple opportunities to demonstrate their understanding and improvement over time:
 
-### Substitution Process
+- **Assignment 1**: Basics of Programming
+- **Assignment 2**: Data Structures
+- **Assignment 3**: Algorithms using Data Structures
+- **Assignment 4**: Project utilizing both Programming Basics and Data Structures
 
-1. **Identification**: Equigrade finds an opportunity for grade substitution between Assignment 1 and Assignment 8.
-2. **Implementation**: Yoshi's grade for Assignment 1 is substituted with their higher grade from Assignment 8.
+Here's a Venn Diagram representing the overlap between these topics:
 
-### Impact on Grades
+![Venn Diagram of Assignment Topics](link-to-venn-diagram.png)
 
-Assuming Yoshi's other 8 assignments (excluding Assignments 1 and 8) average a grade of 80% for simplicity:
+This visual representation highlights how assignments are designed to interconnect, allowing Equigrade to effectively identify opportunities for grade substitution based on topic relevance and student improvement.
 
-- **Before Substitution**: Yoshi's overall average grade is calculated with the initial low grade for Assignment 1.
+## Visualizing Student Improvement with Equigrade
 
-```Average Grade = (50 + 80*8 + 95) / 10 = 78.5% or a letter grade of C+```
-  
-- **After Substitution**: The new average incorporates the higher grade from Assignment 8, replacing Assignment 1.
+Equigrade's grading flexibility allows for adjustments that can more accurately reflect each student's learning trajectory. For instance:
 
-``` New Average Grade = (95 + 80*8 + 95) / 10 = 83.0% or a letter grade of B```
+- Yoshi shows consistent improvement, especially in topics related to Data Structures and Algorithms, which is reflected in their grades for Assignments 2 and 3.
+- Birdo starts with a lower grade in the Basics of Programming but quickly demonstrates a strong grasp of Data Structures and their application, leading to high grades in subsequent assignments.
+- Toad initially struggles but shows remarkable improvement by the final project, illustrating their overall mastery of the course material.
 
-This is actually a substantial difference where the GPA goes from a 2.33 to a 3.00!
+Through Equigrade, instructors have the flexibility to adjust grades for earlier assignments, ensuring that final grades more accurately represent student learning and progress.
+
+## Character Images
+
+- Yoshi: ![Yoshi Image](link-to-yoshi-image.png)
+- Birdo: ![Birdo Image](link-to-birdo-image.png)
+- Toad: ![Toad Image](link-to-toad-image.png)
+
+Replace `link-to-yoshi-image.png`, `link-to-birdo-image.png`, and `link-to-toad-image.png` with the actual links to your images.
+
 
 
 
