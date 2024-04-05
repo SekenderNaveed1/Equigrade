@@ -89,20 +89,13 @@ Equigrade's grading flexibility allows for adjustments that can more accurately 
 
 Through Equigrade, instructors have the flexibility to adjust grades for earlier assignments, ensuring that final grades more accurately represent student learning and progress.
 
-## Character Images
-
-- Yoshi: ![Yoshi Image](yoshi.png)
-- Pathfinder: ![Pathfinder Image](PathfinderFullBody.jpg)
-- Birdo: ![Birdo Image](Birdo-MP9.png)
-
-
 
 # Built With
 
 - Python for core functionality
-    <img src="python-logo.png" alt="Python logo" width="100"/>
+    <img src="python-logo.png" alt="Logos/Python logo" width="100"/>
 - Integration with Canvas LMS
-    <img src="Canvas_LMS_Color_RGB.png" alt="Canvas LMS logo" width="100"/>
+    <img src="Canvas_LMS_Color_RGB.png" alt="Logos/Canvas LMS logo" width="100"/>
 
 
 
