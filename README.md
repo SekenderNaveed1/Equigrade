@@ -1,6 +1,6 @@
 # Equigrade: Targeted Grading Adjustments
 
-![alt text](https://github.com/SekenderNaveed1/Equigrade/blob/main/Logo.png)
+![alt text](https://github.com/SekenderNaveed1/Equigrade/blob/main/Logos/Logo.png)
 
 Equigrade introduces a targeted approach to grading, designed to handle outliers such as missing assignments or instances of low performance that might not accurately reflect a student's current understanding. Its aim is to streamline specific aspects of the grading process, particularly focusing on improving fairness by addressing outliers.
 
@@ -60,9 +60,9 @@ This scenario demonstrates Equigrade's impact on student grades across a series 
 
 | Student   | Assignment 1 | Assignment 2 | Assignment 3 | Assignment 4 |
 |-----------|--------------|--------------|--------------|--------------|
-| Yoshi ![Yoshi Image](yoshi.png)     | 75%          | 85%          | 95%          | 80%          |
-| Birdo ![Pathfinder Image](PathfinderFullBody.jpg)    | 60%          | 92%          | 87%          | 90%          |
-| Pathfinder ![Birdo Image](Birdo-MP9.png)| 50%          | 78%          | 88%          | 94%          |
+| Yoshi ![Yoshi Image](Logos/yoshi.png)     | 75%          | 85%          | 95%          | 80%          |
+| Pathfinder ![Pathfinder Image](Logos/PathfinderFullBody.jpg)    | 60%          | 92%          | 87%          | 90%          |
+| Birdo ![Birdo Image](Logos/Birdo-MP9.png)| 50%          | 78%          | 88%          | 94%          |
 
 ## Assignment Topics and Overlap
 
