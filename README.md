@@ -93,9 +93,9 @@ Through Equigrade, instructors have the flexibility to adjust grades for earlier
 # Built With
 
 - Python for core functionality
-    <img src="python-logo.png" alt="Logos/python-logo.png" width="100"/>
+    <img src ="Logos/python-logo.png" width="100"/>
 - Integration with Canvas LMS
-    <img src="Canvas_LMS_Color_RGB.png" alt="Logos/Canvas_LMS_Color_RGB.png" width="100"/>
+    <img src ="Logos/Canvas_LMS_Color_RGB.png" width="100"/>
 
 
 
