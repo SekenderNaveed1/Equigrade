@@ -60,9 +60,9 @@ This scenario demonstrates Equigrade's impact on student grades across a series 
 
 | Student   | Assignment 1 | Assignment 2 | Assignment 3 | Assignment 4 |
 |-----------|--------------|--------------|--------------|--------------|
-| Yoshi     | 75%          | 85%          | 95%          | 80%          |
-| Birdo     | 60%          | 92%          | 87%          | 90%          |
-| Pathfinder| 50%          | 78%          | 88%          | 94%          |
+| Yoshi ![Yoshi Image](yoshi.png)     | 75%          | 85%          | 95%          | 80%          |
+| Birdo ![Pathfinder Image](PathfinderFullBody.jpg)    | 60%          | 92%          | 87%          | 90%          |
+| Pathfinder ![Birdo Image](Birdo-MP9.png)| 50%          | 78%          | 88%          | 94%          |
 
 ## Assignment Topics and Overlap
 
