@@ -113,7 +113,7 @@ So at the heart of each equigrade program is a JSON file in which each program i
     }
   ]
 }
-
+```
 ## Original Grades vs. Adjusted Grades with Equigrade 
 
 ### Graph with lowest grade dropped
