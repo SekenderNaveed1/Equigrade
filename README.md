@@ -65,9 +65,9 @@ This scenario demonstrates Equigrade's impact on student grades across a series 
 | Birdo <img src="Logos/Birdo-MP9.png" width="50" height="60">| 50%          | 78%          | 88%          | 30%          |
 
 The Students original grades will be (all the assignments have the same weight):
-Yoshi - (40+85+95+50)/4 = 67.5 D\ 
-Pathfinder - (60+92+87+40)/4 = 69.75 D+\ 
-Birdo - (50+78+88+30)/4 = 61.5 D\
+Yoshi - (40+85+95+50)/4 = 67.5 D<br>
+Pathfinder - (60+92+87+40)/4 = 69.75 D+<br>
+Birdo - (50+78+88+30)/4 = 61.5 D<br>
 
 Everyone bascially failed!\
 <img src="yoshi-mario-strikers.gif">
