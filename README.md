@@ -64,14 +64,13 @@ This scenario demonstrates Equigrade's impact on student grades across a series 
 | Pathfinder <img src="Logos/PathfinderFullBody.jpg" width="50" height="70">     | 60%          | 92%          | 87%          | 40%          |
 | Birdo <img src="Logos/Birdo-MP9.png" width="50" height="60">| 50%          | 78%          | 88%          | 30%          |
 
-The Students original graes will be (all the assignments have the same weight):
-Yoshi - (40+85+95+50)/4 = 67.5 D (failed!!!)
+The Students original grades will be (all the assignments have the same weight):
+Yoshi - (40+85+95+50)/4 = 67.5 D 
+Pathfinder - (60+92+87+40)/4 = 69.75 D+ 
+Birdo - (50+78+88+30)/4 = 61.5 D
+
+Everyone bascially failed!
 <img src="yoshi-mario-strikers.gif" width="290" height="200">
-
-
-
-Pathfinder - (60+92+87+40)/4 = 
-Birdo - (50+78+88+30)/4 = 
 
 ## Assignment Topics and Overlap
 
