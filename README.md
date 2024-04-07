@@ -97,7 +97,9 @@ So at the heart of each equigrade program is a JSON file in which each program i
   "environment": {
     "setting1": null,
     "setting2": null
+
   },
+  "max_subsitions": "2"
   "homework_list": [
     {
       "Name": "Homework 1",
@@ -127,38 +129,57 @@ So at the heart of each equigrade program is a JSON file in which each program i
 ### Graph with lowest grade dropped
 | Student   | Assignment 1 | Assignment 2 | Assignment 3 | Assignment 4 |
 |-----------|--------------|--------------|--------------|--------------|
-| Yoshi <img src="Logos/yoshi.png" width="50" height="60">     | 40%          | 85%          | 95%          | 50%          |
-| Pathfinder <img src="Logos/PathfinderFullBody.jpg" width="50" height="70">     | 60%          | 92%          | 87%          | 40%          |
-| Birdo <img src="Logos/Birdo-MP9.png" width="50" height="60">| 50%          | 78%          | 88%          | 30%          |
+| Yoshi <img src="Logos/yoshi.png" width="50" height="60">     | ~40%~          | 85%          | 95%          | 50%          |
+| Pathfinder <img src="Logos/PathfinderFullBody.jpg" width="50" height="70">     | 60%          | 92%          | 87%          | ~40%~          |
+| Birdo <img src="Logos/Birdo-MP9.png" width="50" height="60">| 50%          | 78%          | ~30%~          | 88%          |
 
 
 For yoshi his lowest score was 40% at assignment 1
 For Pathfinder his lowest score was 40% at assignment 4
-for Birdo her lowest score was 30% at assignment 4 
+for Birdo her lowest score was 30% at assignment 3 
 
-So Yoshi's total grade would be: (85+95+80)/300 = 86% = B
-So Pathfinder's total grade would be: (92+89+90)/300 = 90.3 = A-
-So Birdo's total grade would be: (78+88+94)/300 = 86% = B
+After dropping all those grades we get:
+
+So Yoshi's total grade would be: (85+95+50)/300 = 76.66% = C
+So Pathfinder's total grade would be: (60+92+87)/300 = 79.6 = C+
+So Birdo's total grade would be: (50+78+88)/300 = 72% = C-
+
 
 ### Adjusted Grades with Equigrade 
+
+#### Before
 | Student   | Assignment 1 | Assignment 2 | Assignment 3 | Assignment 4 |
 |-----------|--------------|--------------|--------------|--------------|
 | Yoshi <img src="Logos/yoshi.png" width="50" height="60">     | 40%          | 85%          | 95%          | 50%          |
 | Pathfinder <img src="Logos/PathfinderFullBody.jpg" width="50" height="70">     | 60%          | 92%          | 87%          | 40%          |
-| Birdo <img src="Logos/Birdo-MP9.png" width="50" height="60">| 50%          | 78%          | 88%          | 30%          |
+| Birdo <img src="Logos/Birdo-MP9.png" width="50" height="60">| 50%          | 78%          | 30%          | 88%          |
 
 
-Before applying Equigrade's substitution logic, dropping the lowest grade results in the following averages:
 
-- Yoshi's total grade: 86% (Grade B)
-- Pathfinder's total grade: 90.3% (Grade A-)
-- Birdo's total grade: 86% (Grade B)
+After applying Equigrade's substitution logic, where Assignment 1 grades are adjusted based on subsequent performances and the interconnectedness of topics, the grades are as follows (we have 2 substitutions possible):Yoshi: Assignments 1 and 4 will be patched up.
+Assignment 1 is 40 percent and its replacement function is a weighted average with HW 2. So, (40+85)/2 = 62.5.
+Assignment 4's average of HW1, HW2, HW3 and its replacement function will be (40+85+95)/3 = 73.33.
 
-After applying Equigrade's substitution logic, where Assignment 1 grades are adjusted based on subsequent performances and the interconnectedness of topics, the grades are as follows:
+Pathfinder: Assignments 1 and 4 will be patched up.
+Assignment 1 is 60 percent and its replacement function is a weighted average with HW 2. So, (60+92)/2 = 76.
+Assignment 4's average of HW1, HW2, HW3, and its replacement function will be (60+92+87)/3 = 79.66.
 
-- Yoshi's Assignment 1 grade is adjusted to 90% by considering the weighted average of Assignments 1 and 2, resulting in a final grade of 87.5% (Grade B).
-- Pathfinder's Assignment 1 grade is adjusted to 76%, resulting in a final grade of 86.75% (Grade B).
-- Birdo's Assignment 1 grade is adjusted to 64%, resulting in a final grade of 81% (Grade B-).
+Birdo: Assignments 1 and 4 will be patched up.
+Assignment 1 is 60 percent and its replacement function is a weighted average with HW 2. So, (50+78)/2 = 64.
+Assignment 3 is substituted by the grade of Assignment 4, which is 88.
+
+#### After
+| Student   | Assignment 1 | Assignment 2 | Assignment 3 | Assignment 4 |
+|-----------|--------------|--------------|--------------|--------------|
+| Yoshi <img src="Logos/yoshi.png" width="50" height="60">     | 62.5%          | 85%          | 95%          | 73.33%          |
+| Pathfinder <img src="Logos/PathfinderFullBody.jpg" width="50" height="70">     | 76%          | 92%          | 87%          | 79.66%          |
+| Birdo <img src="Logos/Birdo-MP9.png" width="50" height="60">| 64%          | 78%          | 88%          | 88%          |
+
+Grades will be
+Yoshi (62.5+85+95+73.33)/4 = 78.9%
+Pathfinder (76+92+87+79.66)/4 = 83.6%
+Birdo (64+78+88+88)/4 = 79.5%
+
 
 ## Conclusion
 
