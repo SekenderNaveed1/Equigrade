@@ -66,7 +66,9 @@ This scenario demonstrates Equigrade's impact on student grades across a series 
 
 The Students original grades will be (all the assignments have the same weight):
 Yoshi - (40+85+95+50)/4 = 67.5 D 
+
 Pathfinder - (60+92+87+40)/4 = 69.75 D+ 
+
 Birdo - (50+78+88+30)/4 = 61.5 D
 
 Everyone bascially failed!
