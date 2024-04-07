@@ -233,11 +233,11 @@ We welcome contributions from the community! If you have suggestions for enhance
 2. **Create a Feature Branch:** Make your changes in a new branch dedicated to the feature or fix you're working on.
 3. **Commit Your Changes:** Write clear, concise commit messages that describe the enhancements or fixes.
 4. **Open a Pull Request:** Submit a pull request from your feature branch to Equigrade's main branch for review.
-5. **Email Proposal:** For significant changes or new features, please email sekendernaveed1@gmail.com with your proposal before starting work. This allows us to discuss the enhancement and how it fits into the 
+5. **Email Proposal:** For significant changes or new features, please email sekendernaveed1@gmail.com with your proposal before starting work. This allows us to discuss the enhancement and how it fits into the projects goal and scope.
 
 
 # Support
-For support either email me at sekendernaveed1@gmail.com or if you have GPT + subscription use this customer [GPT](https://chat.openai.com/g/g-cAuHru6MG-equigrade) to help you.
+For support either email me at sekendernaveed1@gmail.com or if you have GPT + subscription use this customer service [GPT](https://chat.openai.com/g/g-cAuHru6MG-equigrade) to help you.
 
 
 # Contact
