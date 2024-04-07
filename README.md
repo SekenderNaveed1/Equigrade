@@ -247,12 +247,12 @@ For support either email me at sekendernaveed1@gmail.com or if you have GPT + su
     Project Link: (https://github.com/SekenderNaveed1/Equigrade)
 
 # Acknowledgments
-
+`
   Special thanks to:
   - [Matthew Butner](https://github.com/mfbutner) - UC Davis Faculty Member
   - [Gavin Lang](https://github.com/GavinLang9)  - Lead of QA team
   - [Amabel Gale](https://github.com/avgale) - Lead of DEV team
-
+`
 
 
 # License
