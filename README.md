@@ -248,10 +248,11 @@ For support either email me at sekendernaveed1@gmail.com or if you have GPT + su
 
 # Acknowledgments
 
-    Special thanks to:
-    [Matthew Butner](https://github.com/mfbutner) - UC Davis Faculty Member
-    [Gavin Lang](https://github.com/GavinLang9)  - Lead of QA team
-    [Amabel Gale](https://github.com/avgale) - Lead of DEV team
+  Special thanks to:
+  - [Matthew Butner](https://github.com/mfbutner) - UC Davis Faculty Member
+  - [Gavin Lang](https://github.com/GavinLang9)  - Lead of QA team
+  - [Amabel Gale](https://github.com/avgale) - Lead of DEV team
+
 
 
 # License
