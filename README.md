@@ -54,7 +54,7 @@ In this scenario, we explore the application of Equigrade in an advanced Python 
 - **Grading Policy**: The instructor enables up to 2 grade substitutions for assignments if students show marked improvement on similar or related topics later in the course.
 
 
-# Example Use Scenario: Understanding Equigrade Through Student Performance
+## Example Use Scenario: Understanding Equigrade Through Student Performance
 
 This scenario demonstrates Equigrade's impact on student grades across a series of related assignments. Below is a table showing grades for three students - Yoshi, Birdo, and Toad - on four assignments. Following the table, we explore the topical overlaps between these assignments.
 
@@ -89,7 +89,7 @@ Here's a Venn Diagram representing the overlap between these topics:
 This visual representation highlights how assignments are designed to interconnect, allowing Equigrade to effectively assist intructors identify opportunities for grade substitution based on topic relevance and student improvement.
 
 
-# Json file example
+## Json file example
 So at the heart of each equigrade program is a JSON file in which each program is based off (all of this is very user modifiable) 
 
 ```json
@@ -124,7 +124,7 @@ So at the heart of each equigrade program is a JSON file in which each program i
   ]
 }
 ```
-## Original Grades vs. Adjusted Grades with Equigrade 
+## Original Grades with lowest dropped
 
 ### Graph with lowest grade dropped
 | Student   | Assignment 1 | Assignment 2 | Assignment 3 | Assignment 4 |
@@ -145,7 +145,7 @@ So Princess Peach's total grade would be: `(60+92+87)/300` = 79.6 <br>
 So Birdo's total grade would be: `(50+78+88)/300` = 72% <br>
 
 
-### Adjusted Grades with Equigrade 
+## Adjusted Grades with Equigrade 
 
 #### Before
 | Student   | Assignment 1 | Assignment 2 | Assignment 3 | Assignment 4 |
