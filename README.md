@@ -61,12 +61,12 @@ This scenario demonstrates Equigrade's impact on student grades across a series 
 | Student   | Assignment 1 | Assignment 2 | Assignment 3 | Assignment 4 |
 |-----------|--------------|--------------|--------------|--------------|
 | Yoshi <img src="Logos/yoshi.png" width="50" height="60">     | 40%          | 85%          | 95%          | 50%          |
-| Pathfinder <img src="Logos/PathfinderFullBody.jpg" width="50" height="70">     | 60%          | 92%          | 87%          | 40%          |
+| Princess Peach <img src="Logos/Princess PeachFullBody.jpg" width="50" height="70">     | 60%          | 92%          | 87%          | 40%          |
 | Birdo <img src="Logos/Birdo-MP9.png" width="50" height="60">| 50%          | 78%          | 88%          | 30%          |
 
 The Students original grades will be (all the assignments have the same weight):<br>
 Yoshi - `(40+85+95+50)/4 = 67.5` <br>
-Pathfinder - `(60+92+87+40)/4 = 69.75` <br>
+Princess Peach - `(60+92+87+40)/4 = 69.75` <br>
 Birdo - `(50+78+88+30)/4 = 61.5` <br>
 
 Everyone bascially failed!<br>
@@ -130,18 +130,18 @@ So at the heart of each equigrade program is a JSON file in which each program i
 | Student   | Assignment 1 | Assignment 2 | Assignment 3 | Assignment 4 |
 |-----------|--------------|--------------|--------------|--------------|
 | Yoshi <img src="Logos/yoshi.png" width="50" height="60">     | ~40%~          | 85%          | 95%          | 50%          |
-| Pathfinder <img src="Logos/PathfinderFullBody.jpg" width="50" height="70">     | 60%          | 92%          | 87%          | ~40%~          |
+| Princess Peach <img src="Logos/Princess PeachFullBody.jpg" width="50" height="70">     | 60%          | 92%          | 87%          | ~40%~          |
 | Birdo <img src="Logos/Birdo-MP9.png" width="50" height="60">| 50%          | 78%          | ~30%~          | 88%          |
 
 
 For yoshi his lowest score was 40% at assignment 1<br>
-For Pathfinder his lowest score was 40% at assignment 4<br>
+For Princess Peach his lowest score was 40% at assignment 4<br>
 for Birdo her lowest score was 30% at assignment 3<br>
 
 After dropping all those grades we get:
 
 So Yoshi's total grade would be: `(85+95+50)/300` = 76.66% <br>
-So Pathfinder's total grade would be: `(60+92+87)/300` = 79.6 <br>
+So Princess Peach's total grade would be: `(60+92+87)/300` = 79.6 <br>
 So Birdo's total grade would be: `(50+78+88)/300` = 72% <br>
 
 
@@ -151,7 +151,7 @@ So Birdo's total grade would be: `(50+78+88)/300` = 72% <br>
 | Student   | Assignment 1 | Assignment 2 | Assignment 3 | Assignment 4 |
 |-----------|--------------|--------------|--------------|--------------|
 | Yoshi <img src="Logos/yoshi.png" width="50" height="60">     | 40%          | 85%          | 95%          | 50%          |
-| Pathfinder <img src="Logos/PathfinderFullBody.jpg" width="50" height="70">     | 60%          | 92%          | 87%          | 40%          |
+| Princess Peach <img src="Logos/Princess PeachFullBody.jpg" width="50" height="70">     | 60%          | 92%          | 87%          | 40%          |
 | Birdo <img src="Logos/Birdo-MP9.png" width="50" height="60">| 50%          | 78%          | 30%          | 88%          |
 
 
@@ -160,7 +160,7 @@ After applying Equigrade's substitution logic, where Assignment 1 grades are adj
 Assignment 1 is 40 percent and its replacement function is a weighted average with HW 2. So, (40+85)/2 = 62.5.<br>
 Assignment 4's average of HW1, HW2, HW3 and its replacement function will be (40+85+95)/3 = 73.33.<br>
 
-Pathfinder: Assignments 1 and 4 will be patched up.<br>
+Princess Peach: Assignments 1 and 4 will be patched up.<br>
 Assignment 1 is 60 percent and its replacement function is a weighted average with HW 2. So, (60+92)/2 = 76.<br>
 Assignment 4's average of HW1, HW2, HW3, and its replacement function will be (60+92+87)/3 = 79.66.<br>
 
@@ -172,12 +172,12 @@ Assignment 3 is substituted by the grade of Assignment 4, which is 88.<br>
 | Student   | Assignment 1 | Assignment 2 | Assignment 3 | Assignment 4 |
 |-----------|--------------|--------------|--------------|--------------|
 | Yoshi <img src="Logos/yoshi.png" width="50" height="60">     | 62.5%          | 85%          | 95%          | 73.33%          |
-| Pathfinder <img src="Logos/PathfinderFullBody.jpg" width="50" height="70">     | 76%          | 92%          | 87%          | 79.66%          |
+| Princess Peach <img src="Logos/Princess PeachFullBody.jpg" width="50" height="70">     | 76%          | 92%          | 87%          | 79.66%          |
 | Birdo <img src="Logos/Birdo-MP9.png" width="50" height="60">| 64%          | 78%          | 88%          | 88%          |
 
 Grades will be:<br>
 Yoshi `(62.5+85+95+73.33)/4 = 78.9%` <br>
-Pathfinder `(76+92+87+79.66)/4 = 83.6%` <br>
+Princess Peach `(76+92+87+79.66)/4 = 83.6%` <br>
 Birdo `(64+78+88+88)/4 = 79.5%` <br>
 
 Grades are much more improved now and accurately represent a student's progress.<br>
