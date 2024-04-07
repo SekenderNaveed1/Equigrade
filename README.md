@@ -133,9 +133,9 @@ So Birdos total grade would be: (78+88+94)/300 = 86% = B
 ### Adjusted Grades with Equigrade 
 | Student   | Assignment 1 | Assignment 2 | Assignment 3 | Assignment 4 |
 |-----------|--------------|--------------|--------------|--------------|
-| Yoshi <img src="Logos/yoshi.png" width="50" height="50"> Yoshi     | 90%          | 85%          | 95%          | 80%          |
-| Pathfinder ![Pathfinder Image](Logos/PathfinderFullBody.jpg)    | 76%          | 92%          | 87%          | 90%          |
-| Birdo ![Birdo Image](Logos/Birdo-MP9.png)| 64%          | 78%          | 88%          | 94%          |
+| Yoshi <img src="Logos/yoshi.png" width="50" height="50">    | 90%          | 85%          | 95%          | 80%          |
+| Pathfinder <img src="Logos/PathfinderFullBody.jpg" width="50" height="50">     | 76%          | 92%          | 87%          | 90%          |
+| Birdo Yoshi <img src="Logos/Birdo-MP9.png" width="50" height="50"> | 64%          | 78%          | 88%          | 94%          |
 
 
 Before applying Equigrade's substitution logic, dropping the lowest grade results in the following averages:
