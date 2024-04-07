@@ -159,15 +159,15 @@ So Birdo's total grade would be: `(50+78+88)/300` = 72% <br>
 After applying Equigrade's substitution logic, where Assignment 1 grades are adjusted based on subsequent performances and the interconnectedness of topics, the grades are as follows (we have 2 substitutions possible): <br>
 
 Yoshi: Assignments 1 and 4 will be patched up.<br>
-Assignment 1 is 40 percent and its replacement function is a weighted average with HW 2. So, `(40+85)/2 = 62.5'.<br>
-Assignment 4's average of HW1, HW2, HW3 and its replacement function will be '(40+85+95)/3 = 73.33'.<br>
+Assignment 1 is 40 percent and its replacement function is a weighted average with HW 2. So, `(40+85)/2 = 62.5`.<br>
+Assignment 4's average of HW1, HW2, HW3 and its replacement function will be `(40+85+95)/3 = 73.33`.<br>
 
 Princess Peach: Assignments 1 and 4 will be patched up.<br>
-Assignment 1 is 60 percent and its replacement function is a weighted average with HW 2. So, '(60+92)/2 = 76'.<br>
-Assignment 4's average of HW1, HW2, HW3, and its replacement function will be '(60+92+87)/3 = 79.66'.<br>
+Assignment 1 is 60 percent and its replacement function is a weighted average with HW 2. So, `(60+92)/2 = 76`.<br>
+Assignment 4's average of HW1, HW2, HW3, and its replacement function will be `(60+92+87)/3 = 79.66`.<br>
 
 Birdo: Assignments 1 and 4 will be patched up.<br>
-Assignment 1 is 60 percent and its replacement function is a weighted average with HW 2. So, '(50+78)/2 = 64'.<br>
+Assignment 1 is 60 percent and its replacement function is a weighted average with HW 2. So, `(50+78)/2 = 64`.<br>
 Assignment 3 is substituted by the grade of Assignment 4, which is 88.<br>
 
 #### After
