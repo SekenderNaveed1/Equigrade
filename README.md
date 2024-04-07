@@ -83,6 +83,8 @@ This visual representation highlights how assignments are designed to interconne
 
 # Json file example
 So at the heart of each equigrade program is a JSON file in which each program is based off
+
+```json
 {
   "environment": {
     "setting1": null,
