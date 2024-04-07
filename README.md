@@ -180,6 +180,8 @@ Yoshi `(62.5+85+95+73.33)/4 = 78.9%` <br>
 Pathfinder `(76+92+87+79.66)/4 = 83.6%` <br>
 Birdo `(64+78+88+88)/4 = 79.5%` <br>
 
+Grades are much more improved now and accurately represent a student's progress.<br>
+<img src="yoshi-be-drippy-smw-yoshi.gif">
 
 ## Conclusion
 
