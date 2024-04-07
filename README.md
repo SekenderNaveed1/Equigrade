@@ -68,26 +68,92 @@ This scenario demonstrates Equigrade's impact on student grades across a series 
 
 The assignments cover related areas of the course material, ensuring that students have multiple opportunities to demonstrate their understanding and improvement over time:
 
-- **Assignment 1**: Basics of Programming
-- **Assignment 2**: Data Structures
-- **Assignment 3**: Algorithms using Data Structures
-- **Assignment 4**: Project utilizing both Programming Basics and Data Structures
+- **Assignment 1**: arithmetic operations
+- **Assignment 2**: loops
+- **Assignment 3**: functions
+- **Assignment 4**: Classes
+
 
 Here's a Venn Diagram representing the overlap between these topics:
 
 ![Venn Diagram of Assignment Topics](link-to-venn-diagram.png)
 
-This visual representation highlights how assignments are designed to interconnect, allowing Equigrade to effectively identify opportunities for grade substitution based on topic relevance and student improvement.
+This visual representation highlights how assignments are designed to interconnect, allowing Equigrade to effectively assist intructors identify opportunities for grade substitution based on topic relevance and student improvement.
 
-## Visualizing Student Improvement with Equigrade
 
-Equigrade's grading flexibility allows for adjustments that can more accurately reflect each student's learning trajectory. For instance:
+# Json file example
+So at the heart of each equigrade program is a JSON file in which each program is based off
+{
+  "environment": {
+    "setting1": null,
+    "setting2": null
+  },
+  "homework_list": [
+    {
+      "Name": "Homework 1",
+      "Substitute Method": "Weighted Average",
+      "Substitute Assignment": "Homework 2"
+    },
+    {
+      "Name": "Homework 2",
+      "Substitute Method": "Weighted Average",
+      "Substitute Assignment": "Homework 3"
+    },
+    {
+      "Name": "Homework 3",
+      "Substitute Method": "Max Score",
+      "Substitute Assignment": "Homework 4" 
+    },
+    {
+      "Name": "Homework 4",
+      "Substitute Method": "Average",
+      "Substitute Assignment": "null"
+    }
+  ]
+}
 
-- Yoshi shows consistent improvement, especially in topics related to Data Structures and Algorithms, which is reflected in their grades for Assignments 2 and 3.
-- Birdo starts with a lower grade in the Basics of Programming but quickly demonstrates a strong grasp of Data Structures and their application, leading to high grades in subsequent assignments.
-- Toad initially struggles but shows remarkable improvement by the final project, illustrating their overall mastery of the course material.
+## Original Grades vs. Adjusted Grades with Equigrade 
 
-Through Equigrade, instructors have the flexibility to adjust grades for earlier assignments, ensuring that final grades more accurately represent student learning and progress.
+### Graph with lowest grade dropped
+| Student   | Assignment 1 | Assignment 2 | Assignment 3 | Assignment 4 |
+|-----------|--------------|--------------|--------------|--------------|
+| Yoshi ![Yoshi Image](Logos/yoshi.png)     | ~80%~         | 85%          | 95%          | 80%          |
+| Pathfinder ![Pathfinder Image](Logos/PathfinderFullBody.jpg)    | ~60%~          | 92%          | 87%          | 90%          |
+| Birdo ![Birdo Image](Logos/Birdo-MP9.png)| ~50%~          | 78%          | 88%          | 94%          |
+
+
+For yoshi his lowest score was 80%
+For Pathfinder his lowest score was 60
+for Birdo her lowest score was 50
+
+So Yoshis total grade would be: (85+95+80)/300 = 86% = B
+So Pathfinders total grade would be: (92+89+90)/300 = 90.3 = A-
+So Birdos total grade would be: (78+88+94)/300 = 86% = B
+
+### Adjusted Grades with Equigrade 
+| Student   | Assignment 1 | Assignment 2 | Assignment 3 | Assignment 4 |
+|-----------|--------------|--------------|--------------|--------------|
+| Yoshi ![Yoshi Image](Logos/yoshi.png)     | 90%          | 85%          | 95%          | 80%          |
+| Pathfinder ![Pathfinder Image](Logos/PathfinderFullBody.jpg)    | 76%          | 92%          | 87%          | 90%          |
+| Birdo ![Birdo Image](Logos/Birdo-MP9.png)| 64%          | 78%          | 88%          | 94%          |
+
+
+Before applying Equigrade's substitution logic, dropping the lowest grade results in the following averages:
+
+- Yoshi's total grade: 86% (Grade B)
+- Pathfinder's total grade: 90.3% (Grade A-)
+- Birdo's total grade: 86% (Grade B)
+
+After applying Equigrade's substitution logic, where Assignment 1 grades are adjusted based on subsequent performances and the interconnectedness of topics, the grades are as follows:
+
+- Yoshi's Assignment 1 grade is adjusted to 90% by considering the weighted average of Assignments 1 and 2, resulting in a final grade of 87.5% (Grade B).
+- Pathfinder's Assignment 1 grade is adjusted to 76%, resulting in a final grade of 86.75% (Grade B).
+- Birdo's Assignment 1 grade is adjusted to 64%, resulting in a final grade of 81% (Grade B-).
+
+## Conclusion
+
+Equigrade's unique approach to grade adjustments reflects a more nuanced understanding of student performance, leveraging topic overlap and improvement trends to ensure grades more accurately represent student learning and progression. This flexibility allows instructors to tailor grading to encourage continuous engagement and improvement, aligning with Equigrade's goals of holistic assessment and integration with educational platforms like Canvas.
+
 
 
 # Built With
