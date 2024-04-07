@@ -278,7 +278,7 @@ Users of Equigrade are expected to uphold the highest standards of ethical condu
 
 ## Reporting Unethical Use
 
-If you are aware of any misuse of Equigrade or have concerns regarding potential ethical violations, please report them immediately to the academic affairs department of your institution
+### If you are aware of any misuse of Equigrade or have concerns regarding potential ethical violations, please report them immediately to the academic affairs department of your institution
 ---
 
 Your cooperation is essential in maintaining the integrity and trustworthiness of Equigrade. Together, we can ensure that Equigrade remains a tool for positive educational advancement, reflecting our shared values of honesty, fairness, and academic integrity.
