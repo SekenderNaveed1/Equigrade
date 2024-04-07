@@ -140,9 +140,9 @@ for Birdo her lowest score was 30% at assignment 3<br>
 
 After dropping all those grades we get:
 
-So Yoshi's total grade would be: (85+95+50)/300 = 76.66% = C<br>
-So Pathfinder's total grade would be: (60+92+87)/300 = 79.6 = C+<br>
-So Birdo's total grade would be: (50+78+88)/300 = 72% = C-<br>
+So Yoshi's total grade would be: `(85+95+50)/300` = 76.66% <br>
+So Pathfinder's total grade would be: `(60+92+87)/300` = 79.6 <br>
+So Birdo's total grade would be: `(50+78+88)/300` = 72% <br>
 
 
 ### Adjusted Grades with Equigrade 
@@ -176,9 +176,9 @@ Assignment 3 is substituted by the grade of Assignment 4, which is 88.<br>
 | Birdo <img src="Logos/Birdo-MP9.png" width="50" height="60">| 64%          | 78%          | 88%          | 88%          |
 
 Grades will be:<br>
-Yoshi (62.5+85+95+73.33)/4 = 78.9% <br>
-Pathfinder (76+92+87+79.66)/4 = 83.6% <br>
-Birdo (64+78+88+88)/4 = 79.5% <br>
+Yoshi `(62.5+85+95+73.33)/4 = 78.9%` <br>
+Pathfinder `(76+92+87+79.66)/4 = 83.6%` <br>
+Birdo `(64+78+88+88)/4 = 79.5%` <br>
 
 
 ## Conclusion
