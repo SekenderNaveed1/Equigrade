@@ -66,7 +66,7 @@ This scenario demonstrates Equigrade's impact on student grades across a series 
 
 The Students original graes will be (all the assignments have the same weight):
 Yoshi - (40+85+95+50)/4 = 67.5 D (failed!!!)
-<img src="yoshi-mario-strikers.gif" width="200" height="200">
+<img src="yoshi-mario-strikers.gif" width="290" height="200">
 
 
 
