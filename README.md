@@ -119,7 +119,7 @@ So at the heart of each equigrade program is a JSON file in which each program i
 |-----------|--------------|--------------|--------------|--------------|
 | Yoshi <img src="Logos/yoshi.png" width="50" height="60">     | ~80%~         | 85%          | 95%          | 80%          |
 | Pathfinder <img src="Logos/PathfinderFullBody.jpg" width="50" height="70">     | ~60%~          | 92%          | 87%          | 90%          |
-| Birdo <img src="Logos/Birdo-MP9.png" width="50" height="60">)| ~50%~          | 78%          | 88%          | 94%          |
+| Birdo <img src="Logos/Birdo-MP9.png" width="50" height="60">| ~50%~          | 78%          | 88%          | 94%          |
 
 
 For yoshi his lowest score was 80%
