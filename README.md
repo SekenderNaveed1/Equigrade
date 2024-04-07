@@ -61,7 +61,7 @@ This scenario demonstrates Equigrade's impact on student grades across a series 
 | Student   | Assignment 1 | Assignment 2 | Assignment 3 | Assignment 4 |
 |-----------|--------------|--------------|--------------|--------------|
 | Yoshi <img src="Logos/yoshi.png" width="50" height="60">     | 40%          | 85%          | 95%          | 50%          |
-| Princess Peach <img src="Logos/Princess PeachFullBody.jpg" width="50" height="70">     | 60%          | 92%          | 87%          | 40%          |
+| Princess Peach <img src="Logos/Princess_Peach_Stock_Art.png" width="50" height="70">     | 60%          | 92%          | 87%          | 40%          |
 | Birdo <img src="Logos/Birdo-MP9.png" width="50" height="60">| 50%          | 78%          | 88%          | 30%          |
 
 The Students original grades will be (all the assignments have the same weight):<br>
@@ -70,7 +70,7 @@ Princess Peach - `(60+92+87+40)/4 = 69.75` <br>
 Birdo - `(50+78+88+30)/4 = 61.5` <br>
 
 Everyone bascially failed!<br>
-<img src="yoshi-mario-strikers.gif">
+<img src="Logos/yoshi-mario-strikers.gif">
 
 ## Assignment Topics and Overlap
 
@@ -84,7 +84,7 @@ The assignments cover related areas of the course material, ensuring that studen
 
 Here's a Venn Diagram representing the overlap between these topics:
 
-![Venn Diagram of Assignment Topics](link-to-venn-diagram.png)
+![Venn Diagram of Assignment Topics](Logos/VennDiagram.png)
 
 This visual representation highlights how assignments are designed to interconnect, allowing Equigrade to effectively assist intructors identify opportunities for grade substitution based on topic relevance and student improvement.
 
@@ -130,7 +130,7 @@ So at the heart of each equigrade program is a JSON file in which each program i
 | Student   | Assignment 1 | Assignment 2 | Assignment 3 | Assignment 4 |
 |-----------|--------------|--------------|--------------|--------------|
 | Yoshi <img src="Logos/yoshi.png" width="50" height="60">     | ~40%~          | 85%          | 95%          | 50%          |
-| Princess Peach <img src="Logos/Princess PeachFullBody.jpg" width="50" height="70">     | 60%          | 92%          | 87%          | ~40%~          |
+| Princess Peach <img src="Logos/Princess_Peach_Stock_Art.png" width="50" height="70">     | 60%          | 92%          | 87%          | ~40%~          |
 | Birdo <img src="Logos/Birdo-MP9.png" width="50" height="60">| 50%          | 78%          | ~30%~          | 88%          |
 
 
@@ -151,7 +151,7 @@ So Birdo's total grade would be: `(50+78+88)/300` = 72% <br>
 | Student   | Assignment 1 | Assignment 2 | Assignment 3 | Assignment 4 |
 |-----------|--------------|--------------|--------------|--------------|
 | Yoshi <img src="Logos/yoshi.png" width="50" height="60">     | 40%          | 85%          | 95%          | 50%          |
-| Princess Peach <img src="Logos/Princess PeachFullBody.jpg" width="50" height="70">     | 60%          | 92%          | 87%          | 40%          |
+| Princess Peach <img src="Logos/Princess_Peach_Stock_Art.png" width="50" height="70">     | 60%          | 92%          | 87%          | 40%          |
 | Birdo <img src="Logos/Birdo-MP9.png" width="50" height="60">| 50%          | 78%          | 30%          | 88%          |
 
 
@@ -172,7 +172,7 @@ Assignment 3 is substituted by the grade of Assignment 4, which is 88.<br>
 | Student   | Assignment 1 | Assignment 2 | Assignment 3 | Assignment 4 |
 |-----------|--------------|--------------|--------------|--------------|
 | Yoshi <img src="Logos/yoshi.png" width="50" height="60">     | 62.5%          | 85%          | 95%          | 73.33%          |
-| Princess Peach <img src="Logos/Princess PeachFullBody.jpg" width="50" height="70">     | 76%          | 92%          | 87%          | 79.66%          |
+| Princess Peach <img src="Logos/Princess_Peach_Stock_Art.png" width="50" height="70">     | 76%          | 92%          | 87%          | 79.66%          |
 | Birdo <img src="Logos/Birdo-MP9.png" width="50" height="60">| 64%          | 78%          | 88%          | 88%          |
 
 Grades will be:<br>
@@ -181,7 +181,7 @@ Princess Peach `(76+92+87+79.66)/4 = 83.6%` <br>
 Birdo `(64+78+88+88)/4 = 79.5%` <br>
 
 Grades are much more improved now and accurately represent a student's progress.<br>
-<img src="yoshi-be-drippy-smw-yoshi.gif">
+<img src="Logos/yoshi-be-drippy-smw-yoshi.gif">
 
 ## Conclusion
 
