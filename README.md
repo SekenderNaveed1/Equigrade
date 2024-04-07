@@ -196,8 +196,7 @@ Equigrade's unique approach to grade adjustments reflects a more nuanced underst
 
 
 
-Please check [SETUP.MD](SETUP.md) for setup instructions and follow it very carefully.
-
+Please check [SETUP.MD](Equigrade/Documentation/SETUP.md) for setup instructions and follow it very carefully.
 
 
 
