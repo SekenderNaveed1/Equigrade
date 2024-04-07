@@ -60,9 +60,17 @@ This scenario demonstrates Equigrade's impact on student grades across a series 
 
 | Student   | Assignment 1 | Assignment 2 | Assignment 3 | Assignment 4 |
 |-----------|--------------|--------------|--------------|--------------|
-| Yoshi <img src="Logos/yoshi.png" width="50" height="60">     | 75%          | 85%          | 95%          | 80%          |
-| Pathfinder <img src="Logos/PathfinderFullBody.jpg" width="50" height="70">     | 60%          | 92%          | 87%          | 90%          |
-| Birdo <img src="Logos/Birdo-MP9.png" width="50" height="60">| 50%          | 78%          | 88%          | 94%          |
+| Yoshi <img src="Logos/yoshi.png" width="50" height="60">     | 40%          | 85%          | 95%          | 50%          |
+| Pathfinder <img src="Logos/PathfinderFullBody.jpg" width="50" height="70">     | 60%          | 92%          | 87%          | 40%          |
+| Birdo <img src="Logos/Birdo-MP9.png" width="50" height="60">| 50%          | 78%          | 88%          | 30%          |
+
+The Students original graes will be (all the assignments have the same weight):
+Yoshi - (40+85+95+50)/4 = 67.5 D (failed!!!)  ![Yoshi Mario Strikers](yoshi-mario-strikers.gif)
+
+
+
+Pathfinder - (60+92+87+40)/4 = 
+Birdo - (50+78+88+30)/4 = 
 
 ## Assignment Topics and Overlap
 
@@ -109,7 +117,7 @@ So at the heart of each equigrade program is a JSON file in which each program i
     {
       "Name": "Homework 4",
       "Substitute Method": "Average",
-      "Substitute Assignment": "null"
+      "Substitute Assignment": "Homework 1, Homework 2, Homework 3"
     }
   ]
 }
@@ -119,25 +127,25 @@ So at the heart of each equigrade program is a JSON file in which each program i
 ### Graph with lowest grade dropped
 | Student   | Assignment 1 | Assignment 2 | Assignment 3 | Assignment 4 |
 |-----------|--------------|--------------|--------------|--------------|
-| Yoshi <img src="Logos/yoshi.png" width="50" height="60">     | ~80%~         | 85%          | 95%          | 80%          |
-| Pathfinder <img src="Logos/PathfinderFullBody.jpg" width="50" height="70">     | ~60%~          | 92%          | 87%          | 90%          |
-| Birdo <img src="Logos/Birdo-MP9.png" width="50" height="60">| ~50%~          | 78%          | 88%          | 94%          |
+| Yoshi <img src="Logos/yoshi.png" width="50" height="60">     | 40%          | 85%          | 95%          | 50%          |
+| Pathfinder <img src="Logos/PathfinderFullBody.jpg" width="50" height="70">     | 60%          | 92%          | 87%          | 40%          |
+| Birdo <img src="Logos/Birdo-MP9.png" width="50" height="60">| 50%          | 78%          | 88%          | 30%          |
 
 
-For yoshi his lowest score was 80%
-For Pathfinder his lowest score was 60
-for Birdo her lowest score was 50
+For yoshi his lowest score was 40% at assignment 1
+For Pathfinder his lowest score was 40% at assignment 4
+for Birdo her lowest score was 30% at assignment 4 
 
-So Yoshis total grade would be: (85+95+80)/300 = 86% = B
-So Pathfinders total grade would be: (92+89+90)/300 = 90.3 = A-
-So Birdos total grade would be: (78+88+94)/300 = 86% = B
+So Yoshi's total grade would be: (85+95+80)/300 = 86% = B
+So Pathfinder's total grade would be: (92+89+90)/300 = 90.3 = A-
+So Birdo's total grade would be: (78+88+94)/300 = 86% = B
 
 ### Adjusted Grades with Equigrade 
 | Student   | Assignment 1 | Assignment 2 | Assignment 3 | Assignment 4 |
 |-----------|--------------|--------------|--------------|--------------|
-| Yoshi <img src="Logos/yoshi.png" width="50" height="60">    | 90%          | 85%          | 95%          | 80%          |
-| Pathfinder <img src="Logos/PathfinderFullBody.jpg" width="50" height="70">     | 76%          | 92%          | 87%          | 90%          |
-| Birdo <img src="Logos/Birdo-MP9.png" width="50" height="60"> | 64%          | 78%          | 88%          | 94%          |
+| Yoshi <img src="Logos/yoshi.png" width="50" height="60">     | 40%          | 85%          | 95%          | 50%          |
+| Pathfinder <img src="Logos/PathfinderFullBody.jpg" width="50" height="70">     | 60%          | 92%          | 87%          | 40%          |
+| Birdo <img src="Logos/Birdo-MP9.png" width="50" height="60">| 50%          | 78%          | 88%          | 30%          |
 
 
 Before applying Equigrade's substitution logic, dropping the lowest grade results in the following averages:
