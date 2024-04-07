@@ -44,13 +44,13 @@ Equigrade eliminates the need for assignment dropping or skipping by:
 By addressing the pitfalls of traditional dropping or skipping policies, Equigrade promotes a more holistic and effective learning environment that encourages students to engage with the entire curriculum, manage their time wisely, and continuously strive for improvement.
 
 
-# Equigrade Example Use Scenario:  Python Course
+# Equigrade Example Use Scenario:  Python Course 
 
 ## Course Setup
 
 In this scenario, we explore the application of Equigrade in an advanced Python programming course. This example highlights the system's ability to reflect significant improvements in student performance through its grade substitution feature.
 
-- **Assignments**: The curriculum includes 10 challenging programming assignments that cover advanced Python topics, such as algorithms, data structures, web development, and data science.
+- **Assignments**: The curriculum includes 4 entry level programming assignments that cover advanced Python topics
 - **Grading Policy**: The instructor enables up to 2 grade substitutions for assignments if students show marked improvement on similar or related topics later in the course.
 
 
@@ -90,7 +90,7 @@ This visual representation highlights how assignments are designed to interconne
 
 
 # Json file example
-So at the heart of each equigrade program is a JSON file in which each program is based off
+So at the heart of each equigrade program is a JSON file in which each program is based off (all of this is very user modifiable) 
 
 ```json
 {
