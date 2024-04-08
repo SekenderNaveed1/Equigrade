@@ -69,7 +69,7 @@ Yoshi - `(40+85+95+50)/4 = 67.5` <br>
 Princess Peach - `(60+92+87+40)/4 = 69.75` <br>
 Birdo - `(50+78+88+30)/4 = 61.5` <br>
 
-Everyone bascially failed!<br>
+Everyone basically failed!<br>
 <img src="Logos/yoshi-mario-strikers.gif">
 
 ## Assignment Topics and Overlap
