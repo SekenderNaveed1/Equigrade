@@ -3,45 +3,34 @@
 ![alt text](https://github.com/SekenderNaveed1/Equigrade/blob/main/Logos/Logo.png)
 
 Equigrade introduces a targeted approach to grading, designed to handle outliers such as missing assignments or instances of low performance that might not accurately reflect a student's current understanding. Its aim is to streamline specific aspects of the grading process, particularly focusing on improving fairness by addressing outliers.
+# Equigrade Overview
 
-# What is Equigrade?
+Equigrade assists educators in making targeted grade adjustments, providing a fair evaluation system that recognizes student improvement over time. It's designed for specific scenarios where traditional grading may not accurately reflect a student's capabilities or progress.
 
-Equigrade provides tools to assist educators in adjusting grades for specific scenarios, offering a straightforward solution for managing performance outliers. Equigrade focuses on specific grading adjustments, enabling instructors to substitute or adjust grades under certain conditions, thereby addressing discrepancies in student performance.
+## Key Features
 
-# Key Features of Equigrade:
+- **Grade Adjustment for Improvement**: Allows replacing a lower grade with a higher one from a similar, later assignment to reward progress.
+- **Targeted Adjustments**: Offers solutions for cases where a single assignment doesn't fully represent a student's progress.
+- **Customizable Settings**: Educators can adjust substitution criteria and manage exceptions, making the system adaptable to various needs.
+- **Integration with Canvas**: Ensures seamless operation with the Canvas LMS for convenience.
 
-- **Grade Adjustment for Fair Evaluation**: Equigrade enables educators to replace a lower grade with a more recent, higher one on a similar assignment, recognizing and encouraging improvement over time.
+## Addressing Engagement Issues
 
-- **Targeted Adjustments for Fairer Outcomes**: Equigrade allows for specific grading adjustments, offering a solution to manage cases where a single assignment may not reflect a student's overall progress or capabilities.
+Equigrade encourages consistent effort by allowing for grade improvements, countering the drawbacks of traditional grading methods that might lead to strategic laziness, poor time management, and inconsistent engagement.
 
-- **Customizable Settings for Educators**: Equigrade offers the flexibility to adjust which assignments can be substituted, set thresholds for substitutions, and manage how exceptions are handled, tailoring the system to various instructional needs.
+### Traditional Grading Pitfalls
 
-- **Easy Integration with Canvas**: For convenience, Equigrade is designed to integrate with the Canvas Learning Management System (LMS), ensuring seamless operation between systems.
+- **Strategic Laziness**: Students may skip challenging assignments, knowing they can drop the lowest scores.
+- **Poor Time Management**: The option to drop scores can encourage procrastination.
+- **Inconsistent Engagement**: Dropping scores might lead to uneven engagement with course material.
 
-## Addressing the Issue of Inconsistent Engagement
+### Equigrade's Approach
 
-Equigrade provides an alternative to the traditional method of dropping the lowest scores, encouraging consistent effort and engagement by recognizing and rewarding improvement and mastery over time.
+- **Continuous Improvement**: By substituting lower grades with higher ones from later assignments, Equigrade motivates ongoing effort.
+- **Consistent Engagement**: All assignments contribute to the final grade, encouraging steady participation.
+- **Rewarding Growth**: Focuses on mastery over time, promoting continuous learning and skill development.
 
-
-#### Traditional Approaches to Assignments
-
-- **Strategic Laziness**: Traditional grading systems that permit dropping the lowest scores or skipping assignments may inadvertently encourage students to selectively engage with their coursework. Knowing they can afford to skip assignments without impacting their final grade might lead some students to bypass tasks they perceive as challenging or less interesting.
-
-- **Poor Time Management**: The option to drop assignments can serve as a safety net for poor time management, allowing students to procrastinate and then rely on the ability to exclude their poorest performances from their final grade calculation.
-
-- **Inconsistent Engagement**: Dropping assignments can result in an uneven engagement with the course material. Students might opt to concentrate their efforts on assignments they believe will be easier for them to excel in, potentially neglecting areas of the curriculum that could offer valuable learning experiences.
-
-#### How Equigrade Addresses These Issues
-
-Equigrade eliminates the need for assignment dropping or skipping by:
-
-- **Encouraging Continuous Improvement**: By allowing grades from later assignments to substitute lower grades from earlier, related assignments, Equigrade motivates students to persistently engage with all course material and strive for improvement throughout the course.
-
-- **Fostering Consistent Engagement**: Since all assignments have the potential to contribute to the final grade, students are encouraged to consistently participate and invest effort across all tasks. This consistent engagement ensures a comprehensive understanding of the course material.
-
-- **Rewarding Growth and Mastery**: Equigrade's focus on improvement and mastery over time shifts the emphasis from tactical avoidance of difficult assignments to continuous learning and skill development.
-
-By addressing the pitfalls of traditional dropping or skipping policies, Equigrade promotes a more holistic and effective learning environment that encourages students to engage with the entire curriculum, manage their time wisely, and continuously strive for improvement.
+Equigrade offers a more effective learning environment by encouraging engagement with all course material and recognizing student improvement.
 
 
 # Equigrade Example Use Scenario:  Python Course 
@@ -90,7 +79,7 @@ This visual representation highlights how assignments are designed to interconne
 
 
 ## Json file example
-So at the heart of each equigrade program is a JSON file in which each program is based off (all of this is very user modifiable) 
+At the heart of each equigrade program is a JSON file in which each program is based off (all of this is very user modifiable) 
 
 ```json
 {
@@ -200,7 +189,7 @@ Equigrade's unique approach to grade adjustments reflects a more nuanced underst
 
 
 
-Please check [SETUP.MD](Documentation/SETUP.md) for setup instructions and follow it very carefully.
+Please check [SETUP.MD](Documentation/SETUP.md) for setup instructions.
 
 
 
